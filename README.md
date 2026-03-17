@@ -53,7 +53,7 @@
 | [News](./categories/news.md) | 55 |
 | [Open Data](./categories/open-data.md) | 969 |
 | [Open Source Projects](./categories/open-source-projects.md) | 45 |
-| [Other](./categories/other.md) | 1497 |
+| [Other](./categories/other.md) | 1496 |
 | [Patent](./categories/patent.md) | 4 |
 | [Personality](./categories/personality.md) | 25 |
 | [Phone](./categories/phone.md) | 290 |
@@ -68,7 +68,7 @@
 | [Test Data](./categories/test-data.md) | 72 |
 | [Text Analysis](./categories/text-analysis.md) | 24 |
 | [Tracking](./categories/tracking.md) | 278 |
-| [Transportation](./categories/transportation.md) | 557 |
+| [Transportation](./categories/transportation.md) | 558 |
 | [URL Shorteners](./categories/url-shorteners.md) | 16 |
 | [Vehicle](./categories/vehicle.md) | 8 |
 | [Video](./categories/video.md) | 300 |
