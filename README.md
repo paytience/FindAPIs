@@ -16,7 +16,7 @@
 
 ## Categories
 
-**15516 APIs** across **53 categories**
+**15520 APIs** across **53 categories**
 
 | Category | APIs |
 |----------|------|
@@ -48,10 +48,10 @@
 | [Government](./categories/government.md) | 354 |
 | [Health](./categories/health.md) | 195 |
 | [Jobs](./categories/jobs.md) | 106 |
-| [Machine Learning](./categories/machine-learning.md) | 249 |
+| [Machine Learning](./categories/machine-learning.md) | 250 |
 | [Music](./categories/music.md) | 216 |
 | [News](./categories/news.md) | 53 |
-| [Open Data](./categories/open-data.md) | 969 |
+| [Open Data](./categories/open-data.md) | 970 |
 | [Open Source Projects](./categories/open-source-projects.md) | 45 |
 | [Other](./categories/other.md) | 1494 |
 | [Patent](./categories/patent.md) | 4 |
@@ -72,7 +72,7 @@
 | [URL Shorteners](./categories/url-shorteners.md) | 16 |
 | [Vehicle](./categories/vehicle.md) | 8 |
 | [Video](./categories/video.md) | 298 |
-| [Weather](./categories/weather.md) | 173 |
+| [Weather](./categories/weather.md) | 175 |
 
 ---
 
