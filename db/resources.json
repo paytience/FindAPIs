@@ -1,5 +1,5 @@
 {
-  "count": 15523,
+  "count": 15524,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -97598,6 +97598,16 @@
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://opentdb.com/api_config.php",
+      "Category": "Games & Comics",
+      "Pricing": "free"
+    },
+    {
+      "API Name": "QuizBase",
+      "Description": "Trivia questions API: 1.4M+ items in EN + PL, OpenAPI 3.1, TypeScript SDK, MCP server",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Documentation Link": "https://quizbase.runriva.com/docs",
       "Category": "Games & Comics",
       "Pricing": "free"
     },
