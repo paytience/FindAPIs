@@ -86443,22 +86443,22 @@
     },
     {
       "API Name": "Mist",
-      "Description": "> Version: **0.36.1**\n>\n> Date: **March 3, 2022**\n\n---\n\n#### Available Documentation\n* [Postman](https://documenter.getpostman.com/view/224925/SzYgQufe)\n* [Open API](https://doc.mist-lab.fr/)\n\n---\n#### Useful links\n* [Mist Homepage](https://www.mist.com)\n* [Mist Documentation](https://www.mist.com/documentation)\n* [Official API Documentation](https://api.mist.com/api/v1/docs/Home) (Mist account required)\n* [Mist Blog](https://www.mist.com/news/?md_post_type=post)\n* [Mist Updates](https://www.mist.com/documentation/category/product-updates/)",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://mist.com",
-      "Category": "News",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mist",
       "Description": "Mist is an AI driven wireless network platform. Mist combines Wi-Fi, BLE, and IoT together for personalized wireless services that run without battery powered beacons. The Mist WLAN platform features microservices for SaaS agility, containers, big data collection, and machine learning algorithms to adapt in real–time to changes in user, device, and application behavior.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://www.mist.com",
       "Category": "Machine Learning",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Mist",
+      "Description": "> Version: **0.36.1**\n>\n> Date: **March 3, 2022**\n\n---\n\n#### Available Documentation\n* [Postman](https://documenter.getpostman.com/view/224925/SzYgQufe)\n* [Open API](https://doc.mist-lab.fr/)\n\n---\n#### Useful links\n* [Mist Homepage](https://www.mist.com)\n* [Mist Documentation](https://www.mist.com/documentation)\n* [Official API Documentation](https://api.mist.com/api/v1/docs/Home) (Mist account required)\n* [Mist Blog](https://www.mist.com/news/?md_post_type=post)\n* [Mist Updates](https://www.mist.com/documentation/category/product-updates/)",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://mist.com",
+      "Category": "News",
       "Pricing": "unknown"
     },
     {
@@ -93513,16 +93513,6 @@
     },
     {
       "API Name": "Notion",
-      "Description": "Integrate with Notion",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.notion.com/docs/getting-started",
-      "Category": "Documents & Productivity",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "Notion",
       "Description": "Hello and welcome!\n\nTo make use of this API collection collection as it's written, please duplicate [this database template](https://www.notion.so/8e2c2b769e1d47d287b9ed3035d607ae?v=dc1b92875fb94f10834ba8d36549bd2a).\n\n[Create an integration](https://www.notion.so/my-integrations) to retrieve an API token, add your database and page ID's as variables in the collection, and start making your requests!\n\nFor our full documentation, including sample integrations and guides, visit [developers.notion.com](developers.notion.com)\n\nNeed more help? Join our [developer community on Slack](https://join.slack.com/t/notiondevs/shared_invite/zt-lkrnk74h-YmPRroySRFGiqgjI193AqA/)",
       "Auth": "",
       "HTTPS": true,
@@ -93530,6 +93520,16 @@
       "Documentation Link": "https://notion.com",
       "Category": "Development",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "Notion",
+      "Description": "Integrate with Notion",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.notion.com/docs/getting-started",
+      "Category": "Documents & Productivity",
+      "Pricing": "free"
     },
     {
       "API Name": "Noun Project",
@@ -134803,22 +134803,22 @@
     },
     {
       "API Name": "Tradematic Cloud",
-      "Description": "Tradematic Cloud is a back-end infrastructure for building investment and trading apps. It’s a powerful algorithmic trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers. 12+ exchanges, 5 asset classes, 150 indicators. You can use it as a cloud API, or you can deploy it on your servers. See examples of applications to build with Tradematic Cloud at https://tradematic.cloud",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://tradematic.cloud",
-      "Category": "Finance",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Tradematic Cloud",
       "Description": "### Overview\nTradematic Cloud is a trading infrastructure for building investment services.\n\nIt’s a trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers.\n\nYou can use it as a cloud API, or you can deploy it on your servers. \n\n\n\n### How to use Tradematic Cloud API\n\nSign up at [tradematic.cloud](https://tradematic.cloud). After signing up, you will receive your API key.\n\n### Authorization\n\nAdd the 'X-API-KEY' header with your API key to each request.\n\n### Examples of writing code with Tradematic Cloud API\n\nExamples are available at [tradematic.cloud](https://tradematic.cloud). \n\n### Swagger (.yaml) File\nSwagger (.yaml) file can be found [here](http://tradematic.cloud/sdk/swagger.yaml).",
       "Auth": "apiKey",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://tradematic.com",
       "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Tradematic Cloud",
+      "Description": "Tradematic Cloud is a back-end infrastructure for building investment and trading apps. It’s a powerful algorithmic trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers. 12+ exchanges, 5 asset classes, 150 indicators. You can use it as a cloud API, or you can deploy it on your servers. See examples of applications to build with Tradematic Cloud at https://tradematic.cloud",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://tradematic.cloud",
+      "Category": "Finance",
       "Pricing": "unknown"
     },
     {
