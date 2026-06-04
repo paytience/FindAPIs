@@ -57453,22 +57453,22 @@
     },
     {
       "API Name": "Google Cloud Monitoring",
-      "Description": "Google Cloud Monitoring provides access to metrics and data from the Google Cloud Platform. Developers can access and integrate the functionality of Google Cloud Monitoring with other applications. Some example API methods include retrieving usage data and costs, managing users, and retrieving information on issues.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://cloud.google.com/monitoring/api",
-      "Category": "Cloud Storage & File Sharing",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Cloud Monitoring",
       "Description": "Manages your Cloud Monitoring data and configurations.",
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://google.com",
       "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Cloud Monitoring",
+      "Description": "Google Cloud Monitoring provides access to metrics and data from the Google Cloud Platform. Developers can access and integrate the functionality of Google Cloud Monitoring with other applications. Some example API methods include retrieving usage data and costs, managing users, and retrieving information on issues.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://cloud.google.com/monitoring/api",
+      "Category": "Cloud Storage & File Sharing",
       "Pricing": "unknown"
     },
     {
@@ -59223,16 +59223,6 @@
     },
     {
       "API Name": "Google Sheets",
-      "Description": "Reads and writes Google Sheets.",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://google.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Sheets",
       "Description": "API to read, write, and format Google Sheets data",
       "Auth": "OAuth",
       "HTTPS": true,
@@ -59240,6 +59230,16 @@
       "Documentation Link": "https://developers.google.com/sheets/api/reference/rest",
       "Category": "Development",
       "Pricing": "free"
+    },
+    {
+      "API Name": "Google Sheets",
+      "Description": "Reads and writes Google Sheets.",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://google.com",
+      "Category": "Development",
+      "Pricing": "unknown"
     },
     {
       "API Name": "Google Shopping Content",
@@ -101253,22 +101253,22 @@
     },
     {
       "API Name": "Paylocity",
-      "Description": "Paylocity Web Services API is an externally facing RESTful Internet protocol. The Paylocity API uses HTTP verbs and a RESTful endpoint structure with OAuth 2.0 used as the API authorization framework. Request and response payloads are formatted as JSON and include; Earnings, Deduction, Employee and more. Paylocity is a Cloud based payroll software designed for the mid-market, to simplify how you perform everyday payroll and human resources tasks using an online system.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://docs.paylocity.com",
-      "Category": "Finance",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Paylocity",
       "Description": "For general questions and support of the API, contact: webservices@paylocity.com\r\n# Overview\r\n\r\nPaylocity Web Services API is an externally facing RESTful Internet protocol. The Paylocity API uses HTTP verbs and a RESTful endpoint structure. OAuth 2.0 is used as the API Authorization framework. Request and response payloads are formatted as JSON.\r\nPaylocity supports v1 and v2 versions of its API endpoints. v1, while supported, won't be enhanced with additional functionality. For direct link to v1 documentation, please click [here](https://docs.paylocity.com/weblink/guides/Paylocity_Web_Services_API/v1/Paylocity_Web_Services_API.htm). For additional resources regarding v1/v2 differences and conversion path, please contact webservices@paylocity.com.\r\n\r\n##### Setup\r\n\r\nPaylocity will provide the secure client credentials and set up the scope (type of requests and allowed company numbers). You will receive the unique client id, secret, and Paylocity public key for the data encryption. The secret will expire in 365 days. \r\n* Paylocity will send you an e-mail 10 days prior to the expiration date for the current secret. If not renewed, the second e-mail notification will be sent 5 days prior to secret's expiration. Each email will contain the code necessary to renew the client secret. \r\n* You can obtain the new secret by calling API endpoint using your current not yet expired credentials and the code that was sent with the notification email. For details on API endpoint, please see Client Credentials section. \r\n* Both the current secret value and the new secret value will be recognized during the transition period. After the current secret expires, you must use the new secret. \r\n* If you were unable to renew the secret via API endpoint, you can still contact Service and they will email you new secret via secure email.\r\n\r\n\r\nWhen validating the request, Paylocity API will honor the defaults and required fields set up for the company default New Hire Template as defined in Web Pay.\r\n\r\n\r\n# Authorization\r\n\r\nPaylocity Web Services API uses OAuth2.0 Authentication with JSON Message Format.\r\n\r\n\r\nAll requests of the Paylocity Web Services API require a bearer token which can be obtained by authenticating the client with the Paylocity Web Services API via OAuth 2.0.\r\n\r\n\r\nThe client must request a bearer token from the authorization endpoint:\r\n\r\n\r\nauth-server for production: https://api.paylocity.com/IdentityServer/connect/token\r\n\r\n\r\nauth-server for testing: https://apisandbox.paylocity.com/IdentityServer/connect/token\r\n\r\nPaylocity reserves the right to impose rate limits on the number of calls made to our APIs. Changes to API features/functionality may be made at anytime with or without prior notice.\r\n\r\n##### Authorization Header\r\n\r\nThe request is expected to be in the form of a basic authentication request, with the \"Authorization\" header containing the client-id and client-secret. This means the standard base-64 encoded user:password, prefixed with \"Basic\" as the value for the Authorization header, where user is the client-id and password is the client-secret.\r\n\r\n##### Content-Type Header\r\n\r\nThe \"Content-Type\" header is required to be \"application/x-www-form-urlencoded\".\r\n\r\n##### Additional Values\r\n\r\nThe request must post the following form encoded values within the request body:\r\n\r\n    grant_type = client_credentials\r\n    scope = WebLinkAPI\r\n\r\n##### Responses\r\n\r\nSuccess will return HTTP 200 OK with JSON content:\r\n\r\n    {\r\n      \"access_token\": \"xxx\",\r\n      \"expires_in\": 3600,\r\n      \"token_type\": \"Bearer\"\r\n    }\r\n\r\n# Encryption\r\n\r\nPaylocity uses a combination of RSA and AES cryptography. As part of the setup, each client is issued a public RSA key.\r\n\r\nPaylocity recommends the encryption of the incoming requests as additional protection of the sensitive data. Clients can opt-out of the encryption during the initial setup process. Opt-out will allow Paylocity to process unencrypted requests.\r\n\r\nThe Paylocity Public Key has the following properties:\r\n\r\n* 2048 bit key size\r\n\r\n* PKCS1 key format\r\n\r\n* PEM encoding\r\n\r\n##### Properties\r\n\r\n* key (base 64 encoded): The AES symmetric key encrypted with the Paylocity Public Key. It is the key used to encrypt the content. Paylocity will decrypt the AES key using RSA decryption and use it to decrypt the content.\r\n\r\n* iv (base 64 encoded): The AES IV (Initialization Vector) used when encrypting the content.\r\n\r\n* content (base 64 encoded): The AES encrypted request. The key and iv provided in the secureContent request are used by Paylocity for decryption of the content.\r\n\r\nWe suggest using the following for the AES:\r\n\r\n* CBC cipher mode\r\n\r\n* PKCS7 padding\r\n\r\n* 128 bit block size\r\n\r\n* 256 bit key size\r\n\r\n##### Encryption Flow\r\n\r\n* Generate the unencrypted JSON payload to POST/PUT\r\n* Encrypt this JSON payload using your _own key and IV_ (NOT with the Paylocity public key)\r\n* RSA encrypt the _key_ you used in step 2 with the Paylocity Public Key, then, base64 encode the result\r\n* Base64 encode the IV used to encrypt the JSON payload in step 2\r\n* Put together a \"securecontent\" JSON object:\r\n \r\n{\r\n  'secureContent' : {\r\n    'key' : -- RSA-encrypted & base64 encoded key from step 3,\r\n    'iv' : -- base64 encoded iv from step 4\r\n    'content' -- content encrypted with your own key from step 2, base64 encoded\r\n  }\r\n}\r\n\r\n##### Sample Example\r\n\r\n    {\r\n      \"secureContent\": {\r\n        \"key\": \"eS3aw6H/qzHMJ00gSi6gQ3xa08DPMazk8BFY96Pd99ODA==\",\r\n        \"iv\": \"NLyXMGq9svw0XO5aI9BzWw==\",\r\n        \"content\": \"gAEOiQltO1w+LzGUoIK8FiYbU42hug94EasSl7N+Q1w=\"\r\n      }\r\n    }\r\n\r\n##### Sample C# Code\r\n\r\n    using Newtonsoft.Json;\r\n    using System;\r\n    using System.IO;\r\n    using System.Security.Cryptography;\r\n    using System.Text;\r\n\r\n    public class SecuredContent\r\n    {\r\n      [JsonProperty(\"key\")]\r\n      public string Key { get; set; }\r\n\r\n      [JsonProperty(\"iv\")]\r\n      public string Iv { get; set; }\r\n\r\n      [JsonProperty(\"content\")]\r\n      public string Content { get; set; }\r\n\r\n    }\r\n\r\n    public class EndUserSecureRequestExample\r\n    {\r\n      public string CreateSecuredRequest(FileInfo paylocityPublicKey, string unsecuredJsonRequest)\r\n      {\r\n        string publicKeyXml = File.ReadAllText(paylocityPublicKey.FullName, Encoding.UTF8);\r\n\r\n        SecuredContent secureContent = this.CreateSecuredContent(publicKeyXml, unsecuredJsonRequest);\r\n\r\n        string secureRequest = JsonConvert.SerializeObject(new { secureContent });\r\n\r\n        return secureRequest;\r\n      }\r\n\r\n      private SecuredContent CreateSecuredContent(string publicKeyXml, string request)\r\n      {\r\n        using (AesCryptoServiceProvider aesCsp = new AesCryptoServiceProvider())\r\n        {\r\n          aesCsp.Mode = CipherMode.CBC;\r\n          aesCsp.Padding = PaddingMode.PKCS7;\r\n          aesCsp.BlockSize = 128;\r\n          aesCsp.KeySize = 256;\r\n\r\n          using (ICryptoTransform crt = aesCsp.CreateEncryptor(aesCsp.Key, aesCsp.IV))\r\n          {\r\n            using (MemoryStream outputStream = new MemoryStream())\r\n            {\r\n              using (CryptoStream encryptStream = new CryptoStream(outputStream, crt, CryptoStreamMode.Write))\r\n              {\r\n                byte[] encodedRequest = Encoding.UTF8.GetBytes(request);\r\n                encryptStream.Write(encodedRequest, 0, encodedRequest.Length);\r\n                encryptStream.FlushFinalBlock();\r\n                byte[] encryptedRequest = outputStream.ToArray();\r\n\r\n                using (RSACryptoServiceProvider crp = new RSACryptoServiceProvider())\r\n                {\r\n                  crp.FromXmlstring(publicKeyXml);\r\n                  byte[] encryptedKey = crp.Encrypt(aesCsp.Key, false);\r\n\r\n                  return new SecuredContent()\r\n                  {\r\n                    Key = Convert.ToBase64string(encryptedKey),\r\n                    Iv = Convert.ToBase64string(aesCsp.IV),\r\n                    Content = Convert.ToBase64string(encryptedRequest)\r\n                  };\r\n                }\r\n              }\r\n            }\r\n          }\r\n        }\r\n      }\r\n    }\r\n\r\n## Support\r\n\r\nQuestions about using the Paylocity API? Please contact webservices@paylocity.com.\r\n\r\n# Deductions (v1)\r\n\r\nDeductions API provides endpoints to retrieve, add, update and delete deductions for a company's employees. For schema details, click <a href=\"https://docs.paylocity.com/weblink/guides/Paylocity_Web_Services_API/v1/Paylocity_Web_Services_API.htm\" target=\"_blank\">here</a>.\r\n\r\n# OnBoarding (v1)\r\n\r\nOnboarding API sends employee data into Paylocity Onboarding to help ensure an easy and accurate hiring process for subsequent completion into Web Pay. For schema details, click <a href=\"https://docs.paylocity.com/weblink/guides/Paylocity_Web_Services_API/v1/Paylocity_Web_Services_API.htm\" target=\"_blank\">here</a>.",
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://paylocity.com",
       "Category": "Phone",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Paylocity",
+      "Description": "Paylocity Web Services API is an externally facing RESTful Internet protocol. The Paylocity API uses HTTP verbs and a RESTful endpoint structure with OAuth 2.0 used as the API authorization framework. Request and response payloads are formatted as JSON and include; Earnings, Deduction, Employee and more. Paylocity is a Cloud based payroll software designed for the mid-market, to simplify how you perform everyday payroll and human resources tasks using an online system.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://docs.paylocity.com",
+      "Category": "Finance",
       "Pricing": "unknown"
     },
     {
@@ -101843,22 +101843,22 @@
     },
     {
       "API Name": "PDF Generator",
-      "Description": "The PDF Generator API allows developers to generate PDF documents programmatically. This API also enables end users to create and manage document templates using a browser-based document editor. Each user has their own workspace, but developers can create default templates that are available to all users. Templates can be merged with data from the developer's software via REST API to create PDF and HTML documents.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://pdfgeneratorapi.com/docs",
-      "Category": "Documents & Productivity",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "PDF Generator",
       "Description": "# Introduction\nPDF Generator API allows you easily generate transactional PDF documents and reduce the development and support costs by enabling your users to create and manage their document templates using a browser-based drag-and-drop document editor.\n\nThe PDF Generator API features a web API architecture, allowing you to code in the language of your choice. This API supports the JSON media type, and uses UTF-8 character encoding.\n\nYou can find our previous API documentation page with references to Simple and Signature authentication [here](https://docs.pdfgeneratorapi.com/legacy).\n\n## Base URL\nThe base URL for all the API endpoints is `https://us1.pdfgeneratorapi.com/api/v3`\n\nFor example\n* `https://us1.pdfgeneratorapi.com/api/v3/templates`\n* `https://us1.pdfgeneratorapi.com/api/v3/workspaces`\n* `https://us1.pdfgeneratorapi.com/api/v3/templates/123123`\n\n## Editor\nPDF Generator API comes with a powerful drag & drop editor that allows to create any kind of document templates, from barcode labels to invoices, quotes and reports. You can find tutorials and videos from our [Support Portal](https://support.pdfgeneratorapi.com).\n* [Component specification](https://support.pdfgeneratorapi.com/en/category/components-1ffseaj/)\n* [Expression Language documentation](https://support.pdfgeneratorapi.com/en/category/expression-language-q203pa/)\n* [Frequently asked questions and answers](https://support.pdfgeneratorapi.com/en/category/qanda-1ov519d/)\n\n## Definitions\n\n### Organization\nOrganization is a group of workspaces owned by your account.\n\n### Workspace\nWorkspace contains templates. Each workspace has access to their own templates and organization default templates.\n\n### Master Workspace\nMaster Workspace is the main/default workspace of your Organization. The Master Workspace identifier is the email you signed up with.\n\n### Default Template\nDefault template is a template that is available for all workspaces by default. You can set the template access type under Page Setup. If template has \"Organization\" access then your users can use them from the \"New\" menu in the Editor.\n\n### Data Field\nData Field is a placeholder for the specific data in your JSON data set. In this example JSON you can access the buyer name using Data Field `{paymentDetails::buyerName}`. The separator between depth levels is :: (two colons). When designing the template you don’t have to know every Data Field, our editor automatically extracts all the available fields from your data set and provides an easy way to insert them into the template.\n```\n{\n    \"documentNumber\": 1,\n    \"paymentDetails\": {\n        \"method\": \"Credit Card\",\n        \"buyerName\": \"John Smith\"\n    },\n    \"items\": [\n        {\n            \"id\": 1,\n            \"name\": \"Item one\"\n        }\n    ]\n}\n```\n\n*  *  *  *  *\n# Authentication\nThe PDF Generator API uses __JSON Web Tokens (JWT)__ to authenticate all API requests. These tokens offer a method to establish secure server-to-server authentication by transferring a compact JSON object with a signed payload of your account’s API Key and Secret.\nWhen authenticating to the PDF Generator API, a JWT should be generated uniquely by a __server-side application__ and included as a __Bearer Token__ in the header of each request.\n\n## Legacy Simple and Signature authentication\nYou can find our legacy documentation for Simple and Signature authentication [here](https://docs.pdfgeneratorapi.com/legacy).\n\n<SecurityDefinitions />\n\n## Accessing your API Key and Secret\nYou can find your __API Key__ and __API Secret__ from the __Account Settings__ page after you login to PDF Generator API [here](https://pdfgeneratorapi.com/login).\n\n## Creating a JWT\nJSON Web Tokens are composed of three sections: a header, a payload (containing a claim set), and a signature. The header and payload are JSON objects, which are serialized to UTF-8 bytes, then encoded using base64url encoding.\n\nThe JWT's header, payload, and signature are concatenated with periods (.). As a result, a JWT typically takes the following form:\n```\n{Base64url encoded header}.{Base64url encoded payload}.{Base64url encoded signature}\n```\n\nWe recommend and support libraries provided on [jwt.io](https://jwt.io/). While other libraries can create JWT, these recommended libraries are the most robust.\n\n### Header\nProperty `alg` defines which signing algorithm is being used. PDF Generator API users HS256.\nProperty `typ` defines the type of token and it is always JWT.\n```\n{\n  \"alg\": \"HS256\",\n  \"typ\": \"JWT\"\n}\n```\n\n### Payload\nThe second part of the token is the payload, which contains the claims  or the pieces of information being passed about the user and any metadata required.\nIt is mandatory to specify the following claims:\n* issuer (`iss`): Your API key\n* subject (`sub`): Workspace identifier\n* expiration time (`exp`): Timestamp (unix epoch time) until the token is valid. It is highly recommended to set the exp timestamp for a short period, i.e. a matter of seconds. This way, if a token is intercepted or shared, the token will only be valid for a short period of time.\n\n```\n{\n  \"iss\": \"ad54aaff89ffdfeff178bb8a8f359b29fcb20edb56250b9f584aa2cb0162ed4a\",\n  \"sub\": \"demo.example@actualreports.com\",\n  \"exp\": 1586112639\n}\n```\n\n### Signature\nTo create the signature part you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that. The signature is used to verify the message wasn't changed along the way, and, in the case of tokens signed with a private key, it can also verify that the sender of the JWT is who it says it is.\n```\nHMACSHA256(\n    base64UrlEncode(header) + \".\" +\n    base64UrlEncode(payload),\n    API_SECRET)\n```\n\n### Putting all together\nThe output is three Base64-URL strings separated by dots. The following shows a JWT that has the previous header and payload encoded, and it is signed with a secret.\n```\neyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhZDU0YWFmZjg5ZmZkZmVmZjE3OGJiOGE4ZjM1OWIyOWZjYjIwZWRiNTYyNTBiOWY1ODRhYTJjYjAxNjJlZDRhIiwic3ViIjoiZGVtby5leGFtcGxlQGFjdHVhbHJlcG9ydHMuY29tIn0.SxO-H7UYYYsclS8RGWO1qf0z1cB1m73wF9FLl9RCc1Q\n\n// Base64 encoded header: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\n// Base64 encoded payload: eyJpc3MiOiJhZDU0YWFmZjg5ZmZkZmVmZjE3OGJiOGE4ZjM1OWIyOWZjYjIwZWRiNTYyNTBiOWY1ODRhYTJjYjAxNjJlZDRhIiwic3ViIjoiZGVtby5leGFtcGxlQGFjdHVhbHJlcG9ydHMuY29tIn0\n// Signature: SxO-H7UYYYsclS8RGWO1qf0z1cB1m73wF9FLl9RCc1Q\n```\n\n## Testing with JWTs\nYou can create a temporary token in [Account Settings](https://pdfgeneratorapi.com/account/organization) page after you login to PDF Generator API. The generated token uses your email address as the subject (`sub`) value and is valid for __5 minutes__.\nYou can also use [jwt.io](https://jwt.io/) to generate test tokens for your API calls. These test tokens should never be used in production applications.\n*  *  *  *  *\n\n# Libraries and SDKs\n## Postman Collection\nWe have created a [Postman](https://www.postman.com) Collection so you can easily test all the API endpoints wihtout developing and code. You can download the collection [here](https://app.getpostman.com/run-collection/329f09618ec8a957dbc4) or just click the button below.\n\n[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/329f09618ec8a957dbc4)\n\n## Client Libraries\nAll our Client Libraries are auto-generated using [OpenAPI Generator](https://openapi-generator.tech/) which uses the OpenAPI v3 specification to automatically generate a client library in specific programming language.\n\n* [PHP Client](https://github.com/pdfgeneratorapi/php-client)\n* [Java Client](https://github.com/pdfgeneratorapi/java-client)\n* [Ruby Client](https://github.com/pdfgeneratorapi/ruby-client)\n* [Python Client](https://github.com/pdfgeneratorapi/python-client)\n* [Javascript Client](https://github.com/pdfgeneratorapi/javascript-client)\n\nWe have validated the generated libraries, but let us know if you find any anomalies in the client code.\n*  *  *  *  *\n\n# Error codes\n\n| Code   | Description                    |\n|--------|--------------------------------|\n| 401    | Unauthorized                   |\n| 403    | Forbidden                      |\n| 404    | Not Found                      |\n| 422    | Unprocessable Entity           |\n| 500    | Internal Server Error          |\n\n## 401 - Unauthorized\n| Description                                                             |\n|-------------------------------------------------------------------------|\n| Authentication failed: request expired                                  |\n| Authentication failed: workspace missing                                |\n| Authentication failed: key missing                                      |\n| Authentication failed: property 'iss' (issuer) missing in JWT           |\n| Authentication failed: property 'sub' (subject) missing in JWT          |\n| Authentication failed: property 'exp' (expiration time) missing in JWT  |\n| Authentication failed: incorrect signature                              |\n\n## 403 - Forbidden\n| Description                                                             |\n|-------------------------------------------------------------------------|\n| Your account has exceeded the monthly document generation limit.        |\n| Access not granted: You cannot delete master workspace via API          |\n| Access not granted: Template is not accessible by this organization     |\n| Your session has expired, please close and reopen the editor.           |\n\n## 404 Entity not found\n| Description                                                             |\n|-------------------------------------------------------------------------|\n| Entity not found                                                        |\n| Resource not found                                                      |\n| None of the templates is available for the workspace.                   |\n\n## 422 Unprocessable Entity\n| Description                                                             |\n|-------------------------------------------------------------------------|\n| Unable to parse JSON, please check formatting                           |\n| Required parameter missing                                              |\n| Required parameter missing: template definition not defined             |\n| Required parameter missing: template not defined                        |",
       "Auth": "Bearer",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://support.pdfgeneratorapi.com",
       "Category": "Finance",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "PDF Generator",
+      "Description": "The PDF Generator API allows developers to generate PDF documents programmatically. This API also enables end users to create and manage document templates using a browser-based document editor. Each user has their own workspace, but developers can create default templates that are available to all users. Templates can be merged with data from the developer's software via REST API to create PDF and HTML documents.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://pdfgeneratorapi.com/docs",
+      "Category": "Documents & Productivity",
       "Pricing": "unknown"
     },
     {
