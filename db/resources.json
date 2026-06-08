@@ -108693,22 +108693,22 @@
     },
     {
       "API Name": "Qualtrics",
-      "Description": "Work with Qualtrics surveys, distributions and response events",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://qualtrics.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Qualtrics",
       "Description": "The service allows applications to integrate survey functionality, with specification of questions to ask, conditional display of questions depending on answers to prior questions, and aggregation and reporting of responses. It is intended to support academic research, customer service, preference polling, internal communications and employee feedback, and related functions.\nAPI methods support creation of survey questions with a range of response options, designation of survey recipients (either individuals or panels), questionnaire display, and logging of responses. Methods also support retrieval of response data for analysis outside the system.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://api.qualtrics.com/",
       "Category": "Other",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Qualtrics",
+      "Description": "Work with Qualtrics surveys, distributions and response events",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://qualtrics.com",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
@@ -131553,16 +131553,6 @@
     },
     {
       "API Name": "The Guardian",
-      "Description": "Access all the content the Guardian creates, categorised by tags and section",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "http://open-platform.theguardian.com/",
-      "Category": "News",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "The Guardian",
       "Description": "Access articles and content from The Guardian newspaper.",
       "Auth": "apiKey",
       "HTTPS": true,
@@ -131570,6 +131560,16 @@
       "Documentation Link": "https://open-platform.theguardian.com/documentation",
       "Category": "News",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "The Guardian",
+      "Description": "Access all the content the Guardian creates, categorised by tags and section",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "http://open-platform.theguardian.com/",
+      "Category": "News",
+      "Pricing": "free"
     },
     {
       "API Name": "The Hollowverse GraphQL",
@@ -134803,22 +134803,22 @@
     },
     {
       "API Name": "Tradematic Cloud",
-      "Description": "### Overview\nTradematic Cloud is a trading infrastructure for building investment services.\n\nIt’s a trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers.\n\nYou can use it as a cloud API, or you can deploy it on your servers. \n\n\n\n### How to use Tradematic Cloud API\n\nSign up at [tradematic.cloud](https://tradematic.cloud). After signing up, you will receive your API key.\n\n### Authorization\n\nAdd the 'X-API-KEY' header with your API key to each request.\n\n### Examples of writing code with Tradematic Cloud API\n\nExamples are available at [tradematic.cloud](https://tradematic.cloud). \n\n### Swagger (.yaml) File\nSwagger (.yaml) file can be found [here](http://tradematic.cloud/sdk/swagger.yaml).",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://tradematic.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Tradematic Cloud",
       "Description": "Tradematic Cloud is a back-end infrastructure for building investment and trading apps. It’s a powerful algorithmic trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers. 12+ exchanges, 5 asset classes, 150 indicators. You can use it as a cloud API, or you can deploy it on your servers. See examples of applications to build with Tradematic Cloud at https://tradematic.cloud",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://tradematic.cloud",
       "Category": "Finance",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Tradematic Cloud",
+      "Description": "### Overview\nTradematic Cloud is a trading infrastructure for building investment services.\n\nIt’s a trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers.\n\nYou can use it as a cloud API, or you can deploy it on your servers. \n\n\n\n### How to use Tradematic Cloud API\n\nSign up at [tradematic.cloud](https://tradematic.cloud). After signing up, you will receive your API key.\n\n### Authorization\n\nAdd the 'X-API-KEY' header with your API key to each request.\n\n### Examples of writing code with Tradematic Cloud API\n\nExamples are available at [tradematic.cloud](https://tradematic.cloud). \n\n### Swagger (.yaml) File\nSwagger (.yaml) file can be found [here](http://tradematic.cloud/sdk/swagger.yaml).",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://tradematic.com",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
