@@ -1,5 +1,5 @@
 {
-  "count": 15522,
+  "count": 15523,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -152190,6 +152190,16 @@
       "Documentation Link": "http://dev.maileon.com/api/rest-api-1-0/?lang=en",
       "Category": "Email",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "Xquik",
+      "Description": "X/Twitter data, monitors, webhooks, and MCP",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Documentation Link": "https://docs.xquik.com/api-reference/overview",
+      "Category": "Social",
+      "Pricing": "freemium"
     },
     {
       "API Name": "XTRF Home Portal",
