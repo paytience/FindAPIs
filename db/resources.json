@@ -57453,22 +57453,22 @@
     },
     {
       "API Name": "Google Cloud Monitoring",
-      "Description": "Google Cloud Monitoring provides access to metrics and data from the Google Cloud Platform. Developers can access and integrate the functionality of Google Cloud Monitoring with other applications. Some example API methods include retrieving usage data and costs, managing users, and retrieving information on issues.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://cloud.google.com/monitoring/api",
-      "Category": "Cloud Storage & File Sharing",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Cloud Monitoring",
       "Description": "Manages your Cloud Monitoring data and configurations.",
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://google.com",
       "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Cloud Monitoring",
+      "Description": "Google Cloud Monitoring provides access to metrics and data from the Google Cloud Platform. Developers can access and integrate the functionality of Google Cloud Monitoring with other applications. Some example API methods include retrieving usage data and costs, managing users, and retrieving information on issues.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://cloud.google.com/monitoring/api",
+      "Category": "Cloud Storage & File Sharing",
       "Pricing": "unknown"
     },
     {
@@ -59223,16 +59223,6 @@
     },
     {
       "API Name": "Google Sheets",
-      "Description": "API to read, write, and format Google Sheets data",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.google.com/sheets/api/reference/rest",
-      "Category": "Development",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "Google Sheets",
       "Description": "Reads and writes Google Sheets.",
       "Auth": "OAuth",
       "HTTPS": true,
@@ -59240,6 +59230,16 @@
       "Documentation Link": "https://google.com",
       "Category": "Development",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Sheets",
+      "Description": "API to read, write, and format Google Sheets data",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.google.com/sheets/api/reference/rest",
+      "Category": "Development",
+      "Pricing": "free"
     },
     {
       "API Name": "Google Shopping Content",
@@ -69213,22 +69213,22 @@
     },
     {
       "API Name": "Interzoid Get Full Name Parsed Match Similarity Key",
-      "Description": "The Interzoid Parsed Name Match API provides an algorithmically generated similarity key used to match with parsed full name data. This API uses JSON for responses, and API Keys for authentication. Interzoid powers data-driven applications with several tools based on spelling variation analysis, learning methods, and specific language knowledge.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://www.interzoid.com/services/getfullnameparsedmatch",
-      "Category": "Open Data",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Interzoid Get Full Name Parsed Match Similarity Key",
       "Description": "This API provides a similarity key used to match with other similar full name data when data fields are parsed into first name and last name components, including for purposes of deduplication, fuzzy matching, or merging of datasets. A much higher match rate will be achieved by matching on the similarity key rather than the data itself. This API is for full name data where first and last name are in separate fields. Use the Full Name Similarity Key API for first and last name data that are in the same field.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://www.interzoid.com",
       "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Interzoid Get Full Name Parsed Match Similarity Key",
+      "Description": "The Interzoid Parsed Name Match API provides an algorithmically generated similarity key used to match with parsed full name data. This API uses JSON for responses, and API Keys for authentication. Interzoid powers data-driven applications with several tools based on spelling variation analysis, learning methods, and specific language knowledge.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://www.interzoid.com/services/getfullnameparsedmatch",
+      "Category": "Open Data",
       "Pricing": "unknown"
     },
     {
@@ -86443,22 +86443,22 @@
     },
     {
       "API Name": "Mist",
-      "Description": "> Version: **0.36.1**\n>\n> Date: **March 3, 2022**\n\n---\n\n#### Available Documentation\n* [Postman](https://documenter.getpostman.com/view/224925/SzYgQufe)\n* [Open API](https://doc.mist-lab.fr/)\n\n---\n#### Useful links\n* [Mist Homepage](https://www.mist.com)\n* [Mist Documentation](https://www.mist.com/documentation)\n* [Official API Documentation](https://api.mist.com/api/v1/docs/Home) (Mist account required)\n* [Mist Blog](https://www.mist.com/news/?md_post_type=post)\n* [Mist Updates](https://www.mist.com/documentation/category/product-updates/)",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://mist.com",
-      "Category": "News",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mist",
       "Description": "Mist is an AI driven wireless network platform. Mist combines Wi-Fi, BLE, and IoT together for personalized wireless services that run without battery powered beacons. The Mist WLAN platform features microservices for SaaS agility, containers, big data collection, and machine learning algorithms to adapt in real–time to changes in user, device, and application behavior.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://www.mist.com",
       "Category": "Machine Learning",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Mist",
+      "Description": "> Version: **0.36.1**\n>\n> Date: **March 3, 2022**\n\n---\n\n#### Available Documentation\n* [Postman](https://documenter.getpostman.com/view/224925/SzYgQufe)\n* [Open API](https://doc.mist-lab.fr/)\n\n---\n#### Useful links\n* [Mist Homepage](https://www.mist.com)\n* [Mist Documentation](https://www.mist.com/documentation)\n* [Official API Documentation](https://api.mist.com/api/v1/docs/Home) (Mist account required)\n* [Mist Blog](https://www.mist.com/news/?md_post_type=post)\n* [Mist Updates](https://www.mist.com/documentation/category/product-updates/)",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://mist.com",
+      "Category": "News",
       "Pricing": "unknown"
     },
     {
@@ -115203,21 +115203,21 @@
     },
     {
       "API Name": "Salesforce SOAP",
-      "Description": "This SOAP API allows you to create, retrieve, update or delete records, such as accounts, leads, and custom objects while interacting with Force.com. It also allows you to maintain passwords, perform searches and more. This API is available for use in any language that supports Web services. Salesforce is a customer relationship management services company.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_quickstart_intro.htm",
-      "Category": "Business",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Salesforce SOAP",
       "Description": "The Force.com SOAP API (formerly known as the Force.com Web Services API) lets you integrate Force.com applications that can create, retrieve, update or delete records managed by Salesforce, Force.com, and Database.com, records such as accounts, leads, and custom objects. With more than 20 different calls, SOAP API also lets you to maintain passwords, perform searches, and much more. You can use the SOAP API with any programming language that supports Web services",
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developer.salesforce.com/docs",
+      "Category": "Business",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Salesforce SOAP",
+      "Description": "This SOAP API allows you to create, retrieve, update or delete records, such as accounts, leads, and custom objects while interacting with Force.com. It also allows you to maintain passwords, perform searches and more. This API is available for use in any language that supports Web services. Salesforce is a customer relationship management services company.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_quickstart_intro.htm",
       "Category": "Business",
       "Pricing": "unknown"
     },
