@@ -1,5 +1,5 @@
 {
-  "count": 15522,
+  "count": 15523,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -56652,6 +56652,16 @@
       "Pricing": "unknown"
     },
     {
+      "API Name": "Google Ads",
+      "Description": "Manage Google Ads campaigns, ad groups, keywords, bidding strategies, and reporting. Access campaign performance data, create and modify ads, manage budgets, and automate advertising workflows programmatically.",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "Unknown",
+      "Documentation Link": "https://developers.google.com/google-ads/api/docs/start",
+      "Category": "Anti-Malware",
+      "Pricing": "paid"
+    },
+    {
       "API Name": "Google AdSense",
       "Description": "The Google AdSense API is ideal for developers whose users create their own content through blogging, web publishing, forum/wiki/community creation, or any other application where substantial web content is generated.\nUsing the AdSense API, developers can let users sign up for AdSense through their site or program, generate detailed performance reports for users, and choose how the AdSense revenue is shared with our revenue sharing program. Additionally users can create accounts to store publisher website information, then generate ad code snippets and filter out unwanted ads.\nA previous SOAP version has been deprecated in favor of REST with responses formatted as JSON.",
       "Auth": "",
@@ -57059,16 +57069,6 @@
       "Cors": "",
       "Documentation Link": "https://developers.google.com/google-apps/calendar/caldav/v2/guide",
       "Category": "Events",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Calendar",
-      "Description": "Manipulates events and other calendar data.",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://google.com",
-      "Category": "Development",
       "Pricing": "unknown"
     },
     {
@@ -59137,7 +59137,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/webmaster-tools/v1/api_reference_index",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59147,7 +59147,7 @@
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://developers.google.com/webmaster-tools/search-console-api/about",
+      "Documentation Link": "https://developers.google.com/search/blog/2022/01/url-inspection-api",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -134803,22 +134803,22 @@
     },
     {
       "API Name": "Tradematic Cloud",
-      "Description": "Tradematic Cloud is a back-end infrastructure for building investment and trading apps. It’s a powerful algorithmic trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers. 12+ exchanges, 5 asset classes, 150 indicators. You can use it as a cloud API, or you can deploy it on your servers. See examples of applications to build with Tradematic Cloud at https://tradematic.cloud",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://tradematic.cloud",
-      "Category": "Finance",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Tradematic Cloud",
       "Description": "### Overview\nTradematic Cloud is a trading infrastructure for building investment services.\n\nIt’s a trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers.\n\nYou can use it as a cloud API, or you can deploy it on your servers. \n\n\n\n### How to use Tradematic Cloud API\n\nSign up at [tradematic.cloud](https://tradematic.cloud). After signing up, you will receive your API key.\n\n### Authorization\n\nAdd the 'X-API-KEY' header with your API key to each request.\n\n### Examples of writing code with Tradematic Cloud API\n\nExamples are available at [tradematic.cloud](https://tradematic.cloud). \n\n### Swagger (.yaml) File\nSwagger (.yaml) file can be found [here](http://tradematic.cloud/sdk/swagger.yaml).",
       "Auth": "apiKey",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://tradematic.com",
       "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Tradematic Cloud",
+      "Description": "Tradematic Cloud is a back-end infrastructure for building investment and trading apps. It’s a powerful algorithmic trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers. 12+ exchanges, 5 asset classes, 150 indicators. You can use it as a cloud API, or you can deploy it on your servers. See examples of applications to build with Tradematic Cloud at https://tradematic.cloud",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://tradematic.cloud",
+      "Category": "Finance",
       "Pricing": "unknown"
     },
     {
@@ -150569,6 +150569,16 @@
       "Cors": "",
       "Documentation Link": "http://developer.wiziq.com",
       "Category": "Open Data",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Wmata transport for washington us",
+      "Description": "Washington Metro transport API",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Documentation Link": "https://developer.wmata.com/",
+      "Category": "Other",
       "Pricing": "unknown"
     },
     {

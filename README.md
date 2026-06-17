@@ -16,13 +16,13 @@
 
 ## Categories
 
-**15522 APIs** across **53 categories**
+**15523 APIs** across **53 categories**
 
 | Category | APIs |
 |----------|------|
 | [Animals](./categories/animals.md) | 33 |
 | [Anime](./categories/anime.md) | 19 |
-| [Anti-Malware](./categories/anti-malware.md) | 15 |
+| [Anti-Malware](./categories/anti-malware.md) | 16 |
 | [Art & Design](./categories/art-and-design.md) | 21 |
 | [Authentication & Authorization](./categories/authentication-and-authorization.md) | 103 |
 | [Blockchain](./categories/blockchain.md) | 89 |
@@ -34,7 +34,7 @@
 | [Cryptocurrency](./categories/cryptocurrency.md) | 298 |
 | [Currency Exchange](./categories/currency-exchange.md) | 44 |
 | [Data Validation](./categories/data-validation.md) | 13 |
-| [Development](./categories/development.md) | 2201 |
+| [Development](./categories/development.md) | 2200 |
 | [Dictionaries](./categories/dictionaries.md) | 11 |
 | [Documents & Productivity](./categories/documents-and-productivity.md) | 173 |
 | [Email](./categories/email.md) | 275 |
@@ -53,7 +53,7 @@
 | [News](./categories/news.md) | 53 |
 | [Open Data](./categories/open-data.md) | 969 |
 | [Open Source Projects](./categories/open-source-projects.md) | 45 |
-| [Other](./categories/other.md) | 1494 |
+| [Other](./categories/other.md) | 1495 |
 | [Patent](./categories/patent.md) | 4 |
 | [Personality](./categories/personality.md) | 25 |
 | [Phone](./categories/phone.md) | 290 |
