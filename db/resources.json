@@ -82263,22 +82263,22 @@
     },
     {
       "API Name": "Mastercard MATCH",
-      "Description": "Helps acquirers identify potentially high-risk merchants before entering to a merchant agreement.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://mastercard.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mastercard MATCH",
       "Description": "Member Alert to Control High-risk Merchants (MATCH) is Mastercardâ€™s offering to acquirers for vetting merchants prior to entering into contracts with them. Users must inquire with Mastercard for MATCH certification. The API provides real-time and automated access to the MATCH database which contains information about terminated merchants that users are required to keep updated. The API uses RESTful calls and provides responses in XML.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developer.mastercard.com/portal/display/api/MATCH",
       "Category": "Finance",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Mastercard MATCH",
+      "Description": "Helps acquirers identify potentially high-risk merchants before entering to a merchant agreement.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://mastercard.com",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
@@ -134803,22 +134803,22 @@
     },
     {
       "API Name": "Tradematic Cloud",
-      "Description": "### Overview\nTradematic Cloud is a trading infrastructure for building investment services.\n\nIt’s a trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers.\n\nYou can use it as a cloud API, or you can deploy it on your servers. \n\n\n\n### How to use Tradematic Cloud API\n\nSign up at [tradematic.cloud](https://tradematic.cloud). After signing up, you will receive your API key.\n\n### Authorization\n\nAdd the 'X-API-KEY' header with your API key to each request.\n\n### Examples of writing code with Tradematic Cloud API\n\nExamples are available at [tradematic.cloud](https://tradematic.cloud). \n\n### Swagger (.yaml) File\nSwagger (.yaml) file can be found [here](http://tradematic.cloud/sdk/swagger.yaml).",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://tradematic.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Tradematic Cloud",
       "Description": "Tradematic Cloud is a back-end infrastructure for building investment and trading apps. It’s a powerful algorithmic trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers. 12+ exchanges, 5 asset classes, 150 indicators. You can use it as a cloud API, or you can deploy it on your servers. See examples of applications to build with Tradematic Cloud at https://tradematic.cloud",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://tradematic.cloud",
       "Category": "Finance",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Tradematic Cloud",
+      "Description": "### Overview\nTradematic Cloud is a trading infrastructure for building investment services.\n\nIt’s a trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers.\n\nYou can use it as a cloud API, or you can deploy it on your servers. \n\n\n\n### How to use Tradematic Cloud API\n\nSign up at [tradematic.cloud](https://tradematic.cloud). After signing up, you will receive your API key.\n\n### Authorization\n\nAdd the 'X-API-KEY' header with your API key to each request.\n\n### Examples of writing code with Tradematic Cloud API\n\nExamples are available at [tradematic.cloud](https://tradematic.cloud). \n\n### Swagger (.yaml) File\nSwagger (.yaml) file can be found [here](http://tradematic.cloud/sdk/swagger.yaml).",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://tradematic.com",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
