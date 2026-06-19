@@ -82263,22 +82263,22 @@
     },
     {
       "API Name": "Mastercard MATCH",
-      "Description": "Member Alert to Control High-risk Merchants (MATCH) is Mastercardâ€™s offering to acquirers for vetting merchants prior to entering into contracts with them. Users must inquire with Mastercard for MATCH certification. The API provides real-time and automated access to the MATCH database which contains information about terminated merchants that users are required to keep updated. The API uses RESTful calls and provides responses in XML.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developer.mastercard.com/portal/display/api/MATCH",
-      "Category": "Finance",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mastercard MATCH",
       "Description": "Helps acquirers identify potentially high-risk merchants before entering to a merchant agreement.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://mastercard.com",
       "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Mastercard MATCH",
+      "Description": "Member Alert to Control High-risk Merchants (MATCH) is Mastercardâ€™s offering to acquirers for vetting merchants prior to entering into contracts with them. Users must inquire with Mastercard for MATCH certification. The API provides real-time and automated access to the MATCH database which contains information about terminated merchants that users are required to keep updated. The API uses RESTful calls and provides responses in XML.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developer.mastercard.com/portal/display/api/MATCH",
+      "Category": "Finance",
       "Pricing": "unknown"
     },
     {
@@ -93513,16 +93513,6 @@
     },
     {
       "API Name": "Notion",
-      "Description": "Integrate with Notion",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.notion.com/docs/getting-started",
-      "Category": "Documents & Productivity",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "Notion",
       "Description": "Hello and welcome!\n\nTo make use of this API collection collection as it's written, please duplicate [this database template](https://www.notion.so/8e2c2b769e1d47d287b9ed3035d607ae?v=dc1b92875fb94f10834ba8d36549bd2a).\n\n[Create an integration](https://www.notion.so/my-integrations) to retrieve an API token, add your database and page ID's as variables in the collection, and start making your requests!\n\nFor our full documentation, including sample integrations and guides, visit [developers.notion.com](developers.notion.com)\n\nNeed more help? Join our [developer community on Slack](https://join.slack.com/t/notiondevs/shared_invite/zt-lkrnk74h-YmPRroySRFGiqgjI193AqA/)",
       "Auth": "",
       "HTTPS": true,
@@ -93530,6 +93520,16 @@
       "Documentation Link": "https://notion.com",
       "Category": "Development",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "Notion",
+      "Description": "Integrate with Notion",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.notion.com/docs/getting-started",
+      "Category": "Documents & Productivity",
+      "Pricing": "free"
     },
     {
       "API Name": "Noun Project",
