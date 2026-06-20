@@ -27,14 +27,14 @@
 | [Authentication & Authorization](./categories/authentication-and-authorization.md) | 103 |
 | [Blockchain](./categories/blockchain.md) | 89 |
 | [Books](./categories/books.md) | 52 |
-| [Business](./categories/business.md) | 971 |
+| [Business](./categories/business.md) | 969 |
 | [Calendar](./categories/calendar.md) | 17 |
 | [Cloud Storage & File Sharing](./categories/cloud-storage-and-file-sharing.md) | 398 |
 | [Continuous Integration](./categories/continuous-integration.md) | 7 |
 | [Cryptocurrency](./categories/cryptocurrency.md) | 298 |
 | [Currency Exchange](./categories/currency-exchange.md) | 44 |
 | [Data Validation](./categories/data-validation.md) | 13 |
-| [Development](./categories/development.md) | 2200 |
+| [Development](./categories/development.md) | 2202 |
 | [Dictionaries](./categories/dictionaries.md) | 11 |
 | [Documents & Productivity](./categories/documents-and-productivity.md) | 173 |
 | [Email](./categories/email.md) | 275 |
@@ -51,12 +51,12 @@
 | [Machine Learning](./categories/machine-learning.md) | 249 |
 | [Music](./categories/music.md) | 216 |
 | [News](./categories/news.md) | 53 |
-| [Open Data](./categories/open-data.md) | 969 |
+| [Open Data](./categories/open-data.md) | 970 |
 | [Open Source Projects](./categories/open-source-projects.md) | 45 |
 | [Other](./categories/other.md) | 1495 |
 | [Patent](./categories/patent.md) | 4 |
 | [Personality](./categories/personality.md) | 25 |
-| [Phone](./categories/phone.md) | 290 |
+| [Phone](./categories/phone.md) | 289 |
 | [Photography](./categories/photography.md) | 316 |
 | [Podcasts](./categories/podcasts.md) | 7 |
 | [Programming](./categories/programming.md) | 9 |

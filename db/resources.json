@@ -27692,6 +27692,16 @@
       "Pricing": "unknown"
     },
     {
+      "API Name": "Cloudflare Registrar",
+      "Description": "Search for domain names, check real-time availability and pricing, and register supported domains programmatically at cost.",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.cloudflare.com/registrar/registrar-api/",
+      "Category": "Development",
+      "Pricing": "free"
+    },
+    {
       "API Name": "Cloudflare Trace",
       "Description": "Get IP Address, Timestamp, User Agent, Country Code, IATA, HTTP Version, TLS/SSL Version & More",
       "Auth": "",
@@ -55993,12 +56003,12 @@
     },
     {
       "API Name": "Gmail",
-      "Description": "Flexible, RESTful access to the user's inbox",
+      "Description": "The Gmail API lets you view and manage Gmail mailbox data like threads, messages, and labels.",
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developers.google.com/gmail/api/",
-      "Category": "Business",
+      "Category": "Email",
       "Pricing": "free"
     },
     {
@@ -56013,16 +56023,6 @@
     },
     {
       "API Name": "GNews",
-      "Description": "Search for news from various sources",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "yes",
-      "Documentation Link": "https://gnews.io/",
-      "Category": "News",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "GNews",
       "Description": "Google News data with search and top headlines.",
       "Auth": "apiKey",
       "HTTPS": true,
@@ -56030,6 +56030,16 @@
       "Documentation Link": "https://gnews.io/docs",
       "Category": "News",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "GNews",
+      "Description": "Search for news from various sources",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Documentation Link": "https://gnews.io/",
+      "Category": "News",
+      "Pricing": "free"
     },
     {
       "API Name": "Gnip Audience",
@@ -56547,7 +56557,7 @@
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/abusive-experience-report/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -56587,7 +56597,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/authorized-buyers/apis/reference/rest/",
       "Category": "Security",
       "Pricing": "unknown"
     },
@@ -56597,7 +56607,7 @@
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/ad-experience-report/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -56617,7 +56627,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/workspace/admin/",
       "Category": "Business",
       "Pricing": "unknown"
     },
@@ -56647,7 +56657,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/admob/api/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -56717,7 +56727,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "http://code.google.com/apis/analytics/docs/mgmt/home.html",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -56787,7 +56797,7 @@
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/zero-touch/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -56807,7 +56817,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/android/management",
       "Category": "Business",
       "Pricing": "unknown"
     },
@@ -56817,7 +56827,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/api-keys/docs",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -56827,7 +56837,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/apigee-api-management/",
       "Category": "Machine Learning",
       "Pricing": "unknown"
     },
@@ -56857,7 +56867,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/appengine/docs/admin-api/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -56897,7 +56907,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/bigquery/docs/analytics-hub-introduction",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -56957,7 +56967,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/apps-script/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -57017,7 +57027,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/blogger/docs/3.0/getting_started",
       "Category": "News",
       "Pricing": "unknown"
     },
@@ -57057,7 +57067,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://code.google.com/apis/books/docs/v1/getting_started.html",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -57117,7 +57127,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/workspace/chat",
       "Category": "Security",
       "Pricing": "unknown"
     },
@@ -57157,7 +57167,7 @@
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/civic-information/",
       "Category": "Geocoding",
       "Pricing": "unknown"
     },
@@ -57177,7 +57187,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/workspace/classroom",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -57257,7 +57267,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/channel",
       "Category": "Geocoding",
       "Pricing": "unknown"
     },
@@ -57277,7 +57287,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/data-catalog/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -57297,7 +57307,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/dlp/docs/",
       "Category": "Video",
       "Pricing": "unknown"
     },
@@ -57317,7 +57327,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/dataproc/docs/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -57357,7 +57367,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/deployment-manager/docs/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -57417,7 +57427,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/identity/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -57447,7 +57457,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/logging/docs/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -57457,7 +57467,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/monitoring/docs/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -57527,7 +57537,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/private-catalog/docs/",
       "Category": "Business",
       "Pricing": "unknown"
     },
@@ -57547,7 +57557,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/resource-manager",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -57647,7 +57657,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/sql/docs/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -57707,7 +57717,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/storage/docs/json_api/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -57727,7 +57737,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/support/docs/apis",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -57737,7 +57747,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/text-to-speech/docs/",
       "Category": "Machine Learning",
       "Pricing": "unknown"
     },
@@ -57747,7 +57757,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://firebase.google.com/docs/test-lab/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -57937,7 +57947,7 @@
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/custom-search/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -57957,7 +57967,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/dataflow/docs/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -57987,7 +57997,7 @@
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/digital-asset-links/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -58017,7 +58027,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/display-video/",
       "Category": "Video",
       "Pricing": "unknown"
     },
@@ -58047,7 +58057,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/docs/api/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -58077,7 +58087,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/drive/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -58097,7 +58107,7 @@
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/drive/labels/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -58147,7 +58157,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/workspace/admin/licensing/",
       "Category": "Business",
       "Pricing": "unknown"
     },
@@ -58157,7 +58167,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/fact-check/tools/api/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -58227,7 +58237,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://firebase.google.com/docs/dynamic-links/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -58237,7 +58247,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://firebase.google.com/docs/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -58327,7 +58337,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/forms/api/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -58382,42 +58392,12 @@
       "Pricing": "unknown"
     },
     {
-      "API Name": "Google gmail",
-      "Description": "Flexible, RESTful access to the user's inbox",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.google.com/docs/api",
-      "Category": "Business",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Gmail",
-      "Description": "The Gmail API lets you view and manage Gmail mailbox data like threads, messages, and labels.",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://google.com",
-      "Category": "Phone",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Gmail OAuth",
-      "Description": "Google Gmail now supports the standard IMAP and SMTP protocols for accessing and sending e-mail messages. The Gmail IMAP and SMTP servers have been extended to support authorization via the industry-standard OAuth protocol. This allows third party applications to access a user's email account with their permission.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.google.com/gmail/oauth_overview",
-      "Category": "Email",
-      "Pricing": "unknown"
-    },
-    {
       "API Name": "Google Gmail Postmaster Tools",
       "Description": "The Postmaster Tools API is a RESTful API that provides programmatic access to email traffic metrics (like spam reports, delivery errors etc) otherwise available through the Gmail Postmaster Tools UI currently.",
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/gmail/postmaster/",
       "Category": "Phone",
       "Pricing": "unknown"
     },
@@ -58487,7 +58467,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/search/apis/indexing-api/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -58497,7 +58477,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/keep/api/",
       "Category": "News",
       "Pricing": "unknown"
     },
@@ -58517,7 +58497,7 @@
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/knowledge-graph/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -58547,7 +58527,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/kubernetes-engine/docs/",
       "Category": "Machine Learning",
       "Pricing": "unknown"
     },
@@ -58567,7 +58547,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/library-agent/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -58577,7 +58557,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/my-business/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -58777,7 +58757,7 @@
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/my-business/",
       "Category": "Geocoding",
       "Pricing": "unknown"
     },
@@ -58787,7 +58767,7 @@
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/my-business/",
       "Category": "Business",
       "Pricing": "unknown"
     },
@@ -58797,7 +58777,7 @@
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/my-business/",
       "Category": "Geocoding",
       "Pricing": "unknown"
     },
@@ -58807,7 +58787,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/identity/protocols/oauth2",
       "Category": "Security",
       "Pricing": "unknown"
     },
@@ -58867,7 +58847,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/people/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -58907,7 +58887,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/android-publisher",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -58927,7 +58907,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/android/work/",
       "Category": "Business",
       "Pricing": "unknown"
     },
@@ -58937,7 +58917,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/games/",
       "Category": "Games & Comics",
       "Pricing": "unknown"
     },
@@ -58947,7 +58927,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/games/services/",
       "Category": "Games & Comics",
       "Pricing": "unknown"
     },
@@ -58977,7 +58957,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/games/services/publishing/",
       "Category": "Games & Comics",
       "Pricing": "unknown"
     },
@@ -59087,7 +59067,7 @@
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/safe-browsing/",
       "Category": "Machine Learning",
       "Pricing": "unknown"
     },
@@ -59097,7 +59077,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/spectrum-access-system/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59107,7 +59087,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/search-ads/reporting/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59117,7 +59097,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/search-ads/reporting/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59207,7 +59187,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/service-infrastructure/docs/overview",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59217,7 +59197,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/service-usage/docs/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59227,7 +59207,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/sheets/api/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59257,7 +59237,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/site-verification/",
       "Category": "Machine Learning",
       "Pricing": "unknown"
     },
@@ -59277,7 +59257,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/slides/api/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59347,7 +59327,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/storage-transfer/docs/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59377,7 +59357,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/streetview/publish/",
       "Category": "Geocoding",
       "Pricing": "unknown"
     },
@@ -59397,7 +59377,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/tag-manager/",
       "Category": "Machine Learning",
       "Pricing": "unknown"
     },
@@ -59417,7 +59397,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/tasks/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59457,7 +59437,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/vault/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59537,7 +59517,7 @@
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/fonts/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59547,7 +59527,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://cloud.google.com/web-risk/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59567,7 +59547,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/workspace/admin/alertcenter/",
       "Category": "Machine Learning",
       "Pricing": "unknown"
     },
@@ -59577,7 +59557,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/workspace/reseller/",
       "Category": "Machine Learning",
       "Pricing": "unknown"
     },
@@ -59587,7 +59567,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/youtube/v3/",
       "Category": "Video",
       "Pricing": "unknown"
     },
@@ -59597,7 +59577,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/youtube/reporting/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59607,7 +59587,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/+/web/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -69213,22 +69193,22 @@
     },
     {
       "API Name": "Interzoid Get Full Name Parsed Match Similarity Key",
-      "Description": "The Interzoid Parsed Name Match API provides an algorithmically generated similarity key used to match with parsed full name data. This API uses JSON for responses, and API Keys for authentication. Interzoid powers data-driven applications with several tools based on spelling variation analysis, learning methods, and specific language knowledge.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://www.interzoid.com/services/getfullnameparsedmatch",
-      "Category": "Open Data",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Interzoid Get Full Name Parsed Match Similarity Key",
       "Description": "This API provides a similarity key used to match with other similar full name data when data fields are parsed into first name and last name components, including for purposes of deduplication, fuzzy matching, or merging of datasets. A much higher match rate will be achieved by matching on the similarity key rather than the data itself. This API is for full name data where first and last name are in separate fields. Use the Full Name Similarity Key API for first and last name data that are in the same field.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://www.interzoid.com",
       "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Interzoid Get Full Name Parsed Match Similarity Key",
+      "Description": "The Interzoid Parsed Name Match API provides an algorithmically generated similarity key used to match with parsed full name data. This API uses JSON for responses, and API Keys for authentication. Interzoid powers data-driven applications with several tools based on spelling variation analysis, learning methods, and specific language knowledge.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://www.interzoid.com/services/getfullnameparsedmatch",
+      "Category": "Open Data",
       "Pricing": "unknown"
     },
     {
@@ -82263,22 +82243,22 @@
     },
     {
       "API Name": "Mastercard MATCH",
-      "Description": "Helps acquirers identify potentially high-risk merchants before entering to a merchant agreement.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://mastercard.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mastercard MATCH",
       "Description": "Member Alert to Control High-risk Merchants (MATCH) is Mastercardâ€™s offering to acquirers for vetting merchants prior to entering into contracts with them. Users must inquire with Mastercard for MATCH certification. The API provides real-time and automated access to the MATCH database which contains information about terminated merchants that users are required to keep updated. The API uses RESTful calls and provides responses in XML.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developer.mastercard.com/portal/display/api/MATCH",
       "Category": "Finance",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Mastercard MATCH",
+      "Description": "Helps acquirers identify potentially high-risk merchants before entering to a merchant agreement.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://mastercard.com",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
@@ -93292,6 +93272,16 @@
       "Pricing": "free"
     },
     {
+      "API Name": "Nonprofit Check Plus API by Pactman",
+      "Description": "The Nonprofit Check Plus API helps developers verify U.S. nonprofit organizations using authoritative compliance data from IRS and government sources. It supports nonprofit lookup and due diligence workflows for donation platforms, grantmakers, fintech companies, marketplaces, and compliance teams.\nThe API can be used to validate nonprofit status, check IRS eligibility, identify revocations, screen against OFAC sanctions data, and automate nonprofit verification at scale.",
+      "Auth": "Bearer",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Documentation Link": "https://pactman.org/nonprofitcheckplus-api/docs",
+      "Category": "Open Data",
+      "Pricing": "unknown"
+    },
+    {
       "API Name": "Noonlight",
       "Description": "The Noonlight API allows companies to remotely dispatch emergency services (Police, Fire, EMS) to their users via simple API. When the API call is made, an alarm is created that is handled by one of the real, caring dispatchers at our 24/7 monitoring centers.",
       "Auth": "",
@@ -93513,16 +93503,6 @@
     },
     {
       "API Name": "Notion",
-      "Description": "Hello and welcome!\n\nTo make use of this API collection collection as it's written, please duplicate [this database template](https://www.notion.so/8e2c2b769e1d47d287b9ed3035d607ae?v=dc1b92875fb94f10834ba8d36549bd2a).\n\n[Create an integration](https://www.notion.so/my-integrations) to retrieve an API token, add your database and page ID's as variables in the collection, and start making your requests!\n\nFor our full documentation, including sample integrations and guides, visit [developers.notion.com](developers.notion.com)\n\nNeed more help? Join our [developer community on Slack](https://join.slack.com/t/notiondevs/shared_invite/zt-lkrnk74h-YmPRroySRFGiqgjI193AqA/)",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://notion.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Notion",
       "Description": "Integrate with Notion",
       "Auth": "OAuth",
       "HTTPS": true,
@@ -93530,6 +93510,16 @@
       "Documentation Link": "https://developers.notion.com/docs/getting-started",
       "Category": "Documents & Productivity",
       "Pricing": "free"
+    },
+    {
+      "API Name": "Notion",
+      "Description": "Hello and welcome!\n\nTo make use of this API collection collection as it's written, please duplicate [this database template](https://www.notion.so/8e2c2b769e1d47d287b9ed3035d607ae?v=dc1b92875fb94f10834ba8d36549bd2a).\n\n[Create an integration](https://www.notion.so/my-integrations) to retrieve an API token, add your database and page ID's as variables in the collection, and start making your requests!\n\nFor our full documentation, including sample integrations and guides, visit [developers.notion.com](developers.notion.com)\n\nNeed more help? Join our [developer community on Slack](https://join.slack.com/t/notiondevs/shared_invite/zt-lkrnk74h-YmPRroySRFGiqgjI193AqA/)",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://notion.com",
+      "Category": "Development",
+      "Pricing": "unknown"
     },
     {
       "API Name": "Noun Project",
@@ -132183,16 +132173,6 @@
     },
     {
       "API Name": "They Said So Quotes",
-      "Description": "Quotes Trusted by many fortune brands around the world",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://theysaidso.com/api/",
-      "Category": "Personality",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "They Said So Quotes",
       "Description": "They Said So Quotes API offers a complete feature rich REST API access to its quotes platform.  This is the documentation for the world famous [quotes API](https://theysaidso.com/api).  If you are a subscriber and you are trying this from a console add 'X-TheySaidSo-Api-Secret' header and add your api key as the header value. You can test and play with the API right here on this web page. For using the private end points and subscribing to the API please visit https://theysaidso.com/api.",
       "Auth": "apiKey",
       "HTTPS": true,
@@ -132200,6 +132180,16 @@
       "Documentation Link": "https://theysaidso.com/api/quote",
       "Category": "Machine Learning",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "They Said So Quotes",
+      "Description": "Quotes Trusted by many fortune brands around the world",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://theysaidso.com/api/",
+      "Category": "Personality",
+      "Pricing": "free"
     },
     {
       "API Name": "TheySay AffectR",
@@ -143662,6 +143652,16 @@
       "Pricing": "unknown"
     },
     {
+      "API Name": "Vercel",
+      "Description": "Cloud platform for deploying and hosting web applications. Provides APIs for managing projects, deployments, domains, environment variables, and teams.",
+      "Auth": "Bearer Token",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://vercel.com/docs/rest-api",
+      "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
       "API Name": "Verdigris",
       "Description": "The Verdigris API allows for fetching of data collected by buds in the Verdigris ecosystem for Buildings, Circuits and more. Verdigris allows you to Get notifications when equipment is consuming too much energy, oscillating, or spiking. It enables you to Track your energy consumption with smart sensors, to see how your buildings consume energy from anywhere at anytime. Receive detailed reports and recommendations to increase energy efficiency of your buildings. It also allows you to turn off power usage elements when Verdigris detects a higher than normal electrical load. Verdigris provides responsive energy intelligence thru Machine Learning, Artificial Intelligence and Internet of Things.",
       "Auth": "",
@@ -147317,7 +147317,7 @@
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
-      "Documentation Link": "https://google.com",
+      "Documentation Link": "https://developers.google.com/pay/passes/",
       "Category": "Development",
       "Pricing": "unknown"
     },
