@@ -1,5 +1,5 @@
 {
-  "count": 15523,
+  "count": 15524,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -93503,16 +93503,6 @@
     },
     {
       "API Name": "Notion",
-      "Description": "Hello and welcome!\n\nTo make use of this API collection collection as it's written, please duplicate [this database template](https://www.notion.so/8e2c2b769e1d47d287b9ed3035d607ae?v=dc1b92875fb94f10834ba8d36549bd2a).\n\n[Create an integration](https://www.notion.so/my-integrations) to retrieve an API token, add your database and page ID's as variables in the collection, and start making your requests!\n\nFor our full documentation, including sample integrations and guides, visit [developers.notion.com](developers.notion.com)\n\nNeed more help? Join our [developer community on Slack](https://join.slack.com/t/notiondevs/shared_invite/zt-lkrnk74h-YmPRroySRFGiqgjI193AqA/)",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://notion.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Notion",
       "Description": "Integrate with Notion",
       "Auth": "OAuth",
       "HTTPS": true,
@@ -93520,6 +93510,16 @@
       "Documentation Link": "https://developers.notion.com/docs/getting-started",
       "Category": "Documents & Productivity",
       "Pricing": "free"
+    },
+    {
+      "API Name": "Notion",
+      "Description": "Hello and welcome!\n\nTo make use of this API collection collection as it's written, please duplicate [this database template](https://www.notion.so/8e2c2b769e1d47d287b9ed3035d607ae?v=dc1b92875fb94f10834ba8d36549bd2a).\n\n[Create an integration](https://www.notion.so/my-integrations) to retrieve an API token, add your database and page ID's as variables in the collection, and start making your requests!\n\nFor our full documentation, including sample integrations and guides, visit [developers.notion.com](developers.notion.com)\n\nNeed more help? Join our [developer community on Slack](https://join.slack.com/t/notiondevs/shared_invite/zt-lkrnk74h-YmPRroySRFGiqgjI193AqA/)",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://notion.com",
+      "Category": "Development",
+      "Pricing": "unknown"
     },
     {
       "API Name": "Noun Project",
@@ -130062,6 +130062,16 @@
       "Pricing": "unknown"
     },
     {
+      "API Name": "Tech-detect Tech Detect",
+      "Description": "Reveal which platforms, frameworks, and digital tools are powering online experiences. Tech Detect scans for over 2,000 technologies on every page it checks.",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Documentation Link": "https://tech-detect.com/api-docs",
+      "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
       "API Name": "TechLite Website Screenshot",
       "Description": "This service allows you to take screenshots with this simple, fast and scalable screenshot API. An API token is required to authorize a GET or POST request. Code examples that show how to save a website screenshot to a file are available for PHP and Javascript.",
       "Auth": "",
@@ -134793,22 +134803,22 @@
     },
     {
       "API Name": "Tradematic Cloud",
-      "Description": "### Overview\nTradematic Cloud is a trading infrastructure for building investment services.\n\nIt’s a trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers.\n\nYou can use it as a cloud API, or you can deploy it on your servers. \n\n\n\n### How to use Tradematic Cloud API\n\nSign up at [tradematic.cloud](https://tradematic.cloud). After signing up, you will receive your API key.\n\n### Authorization\n\nAdd the 'X-API-KEY' header with your API key to each request.\n\n### Examples of writing code with Tradematic Cloud API\n\nExamples are available at [tradematic.cloud](https://tradematic.cloud). \n\n### Swagger (.yaml) File\nSwagger (.yaml) file can be found [here](http://tradematic.cloud/sdk/swagger.yaml).",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://tradematic.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Tradematic Cloud",
       "Description": "Tradematic Cloud is a back-end infrastructure for building investment and trading apps. It’s a powerful algorithmic trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers. 12+ exchanges, 5 asset classes, 150 indicators. You can use it as a cloud API, or you can deploy it on your servers. See examples of applications to build with Tradematic Cloud at https://tradematic.cloud",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://tradematic.cloud",
       "Category": "Finance",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Tradematic Cloud",
+      "Description": "### Overview\nTradematic Cloud is a trading infrastructure for building investment services.\n\nIt’s a trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers.\n\nYou can use it as a cloud API, or you can deploy it on your servers. \n\n\n\n### How to use Tradematic Cloud API\n\nSign up at [tradematic.cloud](https://tradematic.cloud). After signing up, you will receive your API key.\n\n### Authorization\n\nAdd the 'X-API-KEY' header with your API key to each request.\n\n### Examples of writing code with Tradematic Cloud API\n\nExamples are available at [tradematic.cloud](https://tradematic.cloud). \n\n### Swagger (.yaml) File\nSwagger (.yaml) file can be found [here](http://tradematic.cloud/sdk/swagger.yaml).",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://tradematic.com",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
