@@ -16,7 +16,7 @@
 
 ## Categories
 
-**15524 APIs** across **53 categories**
+**15522 APIs** across **53 categories**
 
 | Category | APIs |
 |----------|------|
@@ -53,7 +53,7 @@
 | [News](./categories/news.md) | 53 |
 | [Open Data](./categories/open-data.md) | 970 |
 | [Open Source Projects](./categories/open-source-projects.md) | 45 |
-| [Other](./categories/other.md) | 1495 |
+| [Other](./categories/other.md) | 1493 |
 | [Patent](./categories/patent.md) | 4 |
 | [Personality](./categories/personality.md) | 25 |
 | [Phone](./categories/phone.md) | 289 |

@@ -1,5 +1,5 @@
 {
-  "count": 15524,
+  "count": 15522,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -9719,16 +9719,6 @@
       "Cors": "",
       "Documentation Link": "https://developer.atlassian.com/display/CROWDDEV/Crowd+REST+APIs",
       "Category": "Authentication & Authorization",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Atlassian JIRA",
-      "Description": "The Atlassian JIRA REST API is for interfacing with JIRA's project and issue tracking application. JIRA supports basic HTTP authentication as well as OAuth and session authentication. Use the API to access functions like: workflow creation and management, issue tracking, and project planning. The extensive documentation includes detailed instructions and tutorials for implementing the JIRA API.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/",
-      "Category": "Other",
       "Pricing": "unknown"
     },
     {
@@ -73282,16 +73272,6 @@
       "Pricing": "free"
     },
     {
-      "API Name": "JIRA",
-      "Description": "JIRA is a proprietary issue tracking product that allows bug tracking and agile project management",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developer.atlassian.com/server/jira/platform/rest-apis/",
-      "Category": "Other",
-      "Pricing": "unknown"
-    },
-    {
       "API Name": "Jirafe",
       "Description": "Jirafe provides specialized analytics for customers to gauge the performance of their ecommerce platform. The information collected by Jirafe can be used to help online merchants make informed merchandising and marketing decisions.\nThe Jirafe API consists of two parts: a tracker and a reporter.\nThe tracker is used on the front of your store to track visitor events (page view to the order). This is accomplished using Javascript and server side calls. Mostly tracked in Javascript with the exception of orders and cart side operations which are tracked using server side calls.\nThe reporter is utilized in the admin back of the store. It displays all the statistics contained in the dashboard.\nAn account is necessary for utilization of the API.",
       "Auth": "",
@@ -86423,22 +86403,22 @@
     },
     {
       "API Name": "Mist",
-      "Description": "> Version: **0.36.1**\n>\n> Date: **March 3, 2022**\n\n---\n\n#### Available Documentation\n* [Postman](https://documenter.getpostman.com/view/224925/SzYgQufe)\n* [Open API](https://doc.mist-lab.fr/)\n\n---\n#### Useful links\n* [Mist Homepage](https://www.mist.com)\n* [Mist Documentation](https://www.mist.com/documentation)\n* [Official API Documentation](https://api.mist.com/api/v1/docs/Home) (Mist account required)\n* [Mist Blog](https://www.mist.com/news/?md_post_type=post)\n* [Mist Updates](https://www.mist.com/documentation/category/product-updates/)",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://mist.com",
-      "Category": "News",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mist",
       "Description": "Mist is an AI driven wireless network platform. Mist combines Wi-Fi, BLE, and IoT together for personalized wireless services that run without battery powered beacons. The Mist WLAN platform features microservices for SaaS agility, containers, big data collection, and machine learning algorithms to adapt in real–time to changes in user, device, and application behavior.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://www.mist.com",
       "Category": "Machine Learning",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Mist",
+      "Description": "> Version: **0.36.1**\n>\n> Date: **March 3, 2022**\n\n---\n\n#### Available Documentation\n* [Postman](https://documenter.getpostman.com/view/224925/SzYgQufe)\n* [Open API](https://doc.mist-lab.fr/)\n\n---\n#### Useful links\n* [Mist Homepage](https://www.mist.com)\n* [Mist Documentation](https://www.mist.com/documentation)\n* [Official API Documentation](https://api.mist.com/api/v1/docs/Home) (Mist account required)\n* [Mist Blog](https://www.mist.com/news/?md_post_type=post)\n* [Mist Updates](https://www.mist.com/documentation/category/product-updates/)",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://mist.com",
+      "Category": "News",
       "Pricing": "unknown"
     },
     {
@@ -93503,16 +93483,6 @@
     },
     {
       "API Name": "Notion",
-      "Description": "Integrate with Notion",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.notion.com/docs/getting-started",
-      "Category": "Documents & Productivity",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "Notion",
       "Description": "Hello and welcome!\n\nTo make use of this API collection collection as it's written, please duplicate [this database template](https://www.notion.so/8e2c2b769e1d47d287b9ed3035d607ae?v=dc1b92875fb94f10834ba8d36549bd2a).\n\n[Create an integration](https://www.notion.so/my-integrations) to retrieve an API token, add your database and page ID's as variables in the collection, and start making your requests!\n\nFor our full documentation, including sample integrations and guides, visit [developers.notion.com](developers.notion.com)\n\nNeed more help? Join our [developer community on Slack](https://join.slack.com/t/notiondevs/shared_invite/zt-lkrnk74h-YmPRroySRFGiqgjI193AqA/)",
       "Auth": "",
       "HTTPS": true,
@@ -93520,6 +93490,16 @@
       "Documentation Link": "https://notion.com",
       "Category": "Development",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "Notion",
+      "Description": "Integrate with Notion",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.notion.com/docs/getting-started",
+      "Category": "Documents & Productivity",
+      "Pricing": "free"
     },
     {
       "API Name": "Noun Project",
@@ -115193,21 +115173,21 @@
     },
     {
       "API Name": "Salesforce SOAP",
-      "Description": "The Force.com SOAP API (formerly known as the Force.com Web Services API) lets you integrate Force.com applications that can create, retrieve, update or delete records managed by Salesforce, Force.com, and Database.com, records such as accounts, leads, and custom objects. With more than 20 different calls, SOAP API also lets you to maintain passwords, perform searches, and much more. You can use the SOAP API with any programming language that supports Web services",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developer.salesforce.com/docs",
-      "Category": "Business",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Salesforce SOAP",
       "Description": "This SOAP API allows you to create, retrieve, update or delete records, such as accounts, leads, and custom objects while interacting with Force.com. It also allows you to maintain passwords, perform searches and more. This API is available for use in any language that supports Web services. Salesforce is a customer relationship management services company.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_quickstart_intro.htm",
+      "Category": "Business",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Salesforce SOAP",
+      "Description": "The Force.com SOAP API (formerly known as the Force.com Web Services API) lets you integrate Force.com applications that can create, retrieve, update or delete records managed by Salesforce, Force.com, and Database.com, records such as accounts, leads, and custom objects. With more than 20 different calls, SOAP API also lets you to maintain passwords, perform searches, and much more. You can use the SOAP API with any programming language that supports Web services",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developer.salesforce.com/docs",
       "Category": "Business",
       "Pricing": "unknown"
     },
