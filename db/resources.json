@@ -69183,22 +69183,22 @@
     },
     {
       "API Name": "Interzoid Get Full Name Parsed Match Similarity Key",
-      "Description": "The Interzoid Parsed Name Match API provides an algorithmically generated similarity key used to match with parsed full name data. This API uses JSON for responses, and API Keys for authentication. Interzoid powers data-driven applications with several tools based on spelling variation analysis, learning methods, and specific language knowledge.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://www.interzoid.com/services/getfullnameparsedmatch",
-      "Category": "Open Data",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Interzoid Get Full Name Parsed Match Similarity Key",
       "Description": "This API provides a similarity key used to match with other similar full name data when data fields are parsed into first name and last name components, including for purposes of deduplication, fuzzy matching, or merging of datasets. A much higher match rate will be achieved by matching on the similarity key rather than the data itself. This API is for full name data where first and last name are in separate fields. Use the Full Name Similarity Key API for first and last name data that are in the same field.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://www.interzoid.com",
       "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Interzoid Get Full Name Parsed Match Similarity Key",
+      "Description": "The Interzoid Parsed Name Match API provides an algorithmically generated similarity key used to match with parsed full name data. This API uses JSON for responses, and API Keys for authentication. Interzoid powers data-driven applications with several tools based on spelling variation analysis, learning methods, and specific language knowledge.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://www.interzoid.com/services/getfullnameparsedmatch",
+      "Category": "Open Data",
       "Pricing": "unknown"
     },
     {
@@ -86403,22 +86403,22 @@
     },
     {
       "API Name": "Mist",
-      "Description": "Mist is an AI driven wireless network platform. Mist combines Wi-Fi, BLE, and IoT together for personalized wireless services that run without battery powered beacons. The Mist WLAN platform features microservices for SaaS agility, containers, big data collection, and machine learning algorithms to adapt in real–time to changes in user, device, and application behavior.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://www.mist.com",
-      "Category": "Machine Learning",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mist",
       "Description": "> Version: **0.36.1**\n>\n> Date: **March 3, 2022**\n\n---\n\n#### Available Documentation\n* [Postman](https://documenter.getpostman.com/view/224925/SzYgQufe)\n* [Open API](https://doc.mist-lab.fr/)\n\n---\n#### Useful links\n* [Mist Homepage](https://www.mist.com)\n* [Mist Documentation](https://www.mist.com/documentation)\n* [Official API Documentation](https://api.mist.com/api/v1/docs/Home) (Mist account required)\n* [Mist Blog](https://www.mist.com/news/?md_post_type=post)\n* [Mist Updates](https://www.mist.com/documentation/category/product-updates/)",
       "Auth": "apiKey",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://mist.com",
       "Category": "News",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Mist",
+      "Description": "Mist is an AI driven wireless network platform. Mist combines Wi-Fi, BLE, and IoT together for personalized wireless services that run without battery powered beacons. The Mist WLAN platform features microservices for SaaS agility, containers, big data collection, and machine learning algorithms to adapt in real–time to changes in user, device, and application behavior.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://www.mist.com",
+      "Category": "Machine Learning",
       "Pricing": "unknown"
     },
     {
@@ -131533,16 +131533,6 @@
     },
     {
       "API Name": "The Guardian",
-      "Description": "Access all the content the Guardian creates, categorised by tags and section",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "http://open-platform.theguardian.com/",
-      "Category": "News",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "The Guardian",
       "Description": "Access articles and content from The Guardian newspaper.",
       "Auth": "apiKey",
       "HTTPS": true,
@@ -131550,6 +131540,16 @@
       "Documentation Link": "https://open-platform.theguardian.com/documentation",
       "Category": "News",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "The Guardian",
+      "Description": "Access all the content the Guardian creates, categorised by tags and section",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "http://open-platform.theguardian.com/",
+      "Category": "News",
+      "Pricing": "free"
     },
     {
       "API Name": "The Hollowverse GraphQL",
@@ -134783,22 +134783,22 @@
     },
     {
       "API Name": "Tradematic Cloud",
-      "Description": "### Overview\nTradematic Cloud is a trading infrastructure for building investment services.\n\nIt’s a trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers.\n\nYou can use it as a cloud API, or you can deploy it on your servers. \n\n\n\n### How to use Tradematic Cloud API\n\nSign up at [tradematic.cloud](https://tradematic.cloud). After signing up, you will receive your API key.\n\n### Authorization\n\nAdd the 'X-API-KEY' header with your API key to each request.\n\n### Examples of writing code with Tradematic Cloud API\n\nExamples are available at [tradematic.cloud](https://tradematic.cloud). \n\n### Swagger (.yaml) File\nSwagger (.yaml) file can be found [here](http://tradematic.cloud/sdk/swagger.yaml).",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://tradematic.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Tradematic Cloud",
       "Description": "Tradematic Cloud is a back-end infrastructure for building investment and trading apps. It’s a powerful algorithmic trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers. 12+ exchanges, 5 asset classes, 150 indicators. You can use it as a cloud API, or you can deploy it on your servers. See examples of applications to build with Tradematic Cloud at https://tradematic.cloud",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://tradematic.cloud",
       "Category": "Finance",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Tradematic Cloud",
+      "Description": "### Overview\nTradematic Cloud is a trading infrastructure for building investment services.\n\nIt’s a trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers.\n\nYou can use it as a cloud API, or you can deploy it on your servers. \n\n\n\n### How to use Tradematic Cloud API\n\nSign up at [tradematic.cloud](https://tradematic.cloud). After signing up, you will receive your API key.\n\n### Authorization\n\nAdd the 'X-API-KEY' header with your API key to each request.\n\n### Examples of writing code with Tradematic Cloud API\n\nExamples are available at [tradematic.cloud](https://tradematic.cloud). \n\n### Swagger (.yaml) File\nSwagger (.yaml) file can be found [here](http://tradematic.cloud/sdk/swagger.yaml).",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://tradematic.com",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
