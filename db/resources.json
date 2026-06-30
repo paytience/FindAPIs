@@ -56853,21 +56853,21 @@
     },
     {
       "API Name": "Google App Engine Admin",
-      "Description": "Provisions and manages developers' App Engine applications.",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://cloud.google.com/appengine/docs/admin-api/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google App Engine Admin",
       "Description": "The Google App Engine Admin API allows developers to provision and manage their App Engine applications. It provides a way to build modern web and mobile applications on an open cloud platform using your own language runtimes, frameworks, and third party libraries. It enables developers with the ability to build scalable web and mobile backends in any language on Google’s infrastructure.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://cloud.google.com/appengine",
+      "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google App Engine Admin",
+      "Description": "Provisions and manages developers' App Engine applications.",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://cloud.google.com/appengine/docs/admin-api/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -93483,16 +93483,6 @@
     },
     {
       "API Name": "Notion",
-      "Description": "Hello and welcome!\n\nTo make use of this API collection collection as it's written, please duplicate [this database template](https://www.notion.so/8e2c2b769e1d47d287b9ed3035d607ae?v=dc1b92875fb94f10834ba8d36549bd2a).\n\n[Create an integration](https://www.notion.so/my-integrations) to retrieve an API token, add your database and page ID's as variables in the collection, and start making your requests!\n\nFor our full documentation, including sample integrations and guides, visit [developers.notion.com](developers.notion.com)\n\nNeed more help? Join our [developer community on Slack](https://join.slack.com/t/notiondevs/shared_invite/zt-lkrnk74h-YmPRroySRFGiqgjI193AqA/)",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://notion.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Notion",
       "Description": "Integrate with Notion",
       "Auth": "OAuth",
       "HTTPS": true,
@@ -93500,6 +93490,16 @@
       "Documentation Link": "https://developers.notion.com/docs/getting-started",
       "Category": "Documents & Productivity",
       "Pricing": "free"
+    },
+    {
+      "API Name": "Notion",
+      "Description": "Hello and welcome!\n\nTo make use of this API collection collection as it's written, please duplicate [this database template](https://www.notion.so/8e2c2b769e1d47d287b9ed3035d607ae?v=dc1b92875fb94f10834ba8d36549bd2a).\n\n[Create an integration](https://www.notion.so/my-integrations) to retrieve an API token, add your database and page ID's as variables in the collection, and start making your requests!\n\nFor our full documentation, including sample integrations and guides, visit [developers.notion.com](developers.notion.com)\n\nNeed more help? Join our [developer community on Slack](https://join.slack.com/t/notiondevs/shared_invite/zt-lkrnk74h-YmPRroySRFGiqgjI193AqA/)",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://notion.com",
+      "Category": "Development",
+      "Pricing": "unknown"
     },
     {
       "API Name": "Noun Project",
@@ -115173,21 +115173,21 @@
     },
     {
       "API Name": "Salesforce SOAP",
-      "Description": "The Force.com SOAP API (formerly known as the Force.com Web Services API) lets you integrate Force.com applications that can create, retrieve, update or delete records managed by Salesforce, Force.com, and Database.com, records such as accounts, leads, and custom objects. With more than 20 different calls, SOAP API also lets you to maintain passwords, perform searches, and much more. You can use the SOAP API with any programming language that supports Web services",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developer.salesforce.com/docs",
-      "Category": "Business",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Salesforce SOAP",
       "Description": "This SOAP API allows you to create, retrieve, update or delete records, such as accounts, leads, and custom objects while interacting with Force.com. It also allows you to maintain passwords, perform searches and more. This API is available for use in any language that supports Web services. Salesforce is a customer relationship management services company.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_quickstart_intro.htm",
+      "Category": "Business",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Salesforce SOAP",
+      "Description": "The Force.com SOAP API (formerly known as the Force.com Web Services API) lets you integrate Force.com applications that can create, retrieve, update or delete records managed by Salesforce, Force.com, and Database.com, records such as accounts, leads, and custom objects. With more than 20 different calls, SOAP API also lets you to maintain passwords, perform searches, and much more. You can use the SOAP API with any programming language that supports Web services",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developer.salesforce.com/docs",
       "Category": "Business",
       "Pricing": "unknown"
     },
