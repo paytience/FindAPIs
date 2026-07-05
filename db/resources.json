@@ -81323,21 +81323,21 @@
     },
     {
       "API Name": "Mapbox Geocoding",
-      "Description": "The Mapbox Geocoding API does two things: geocoding and reverse geocoding. Geocoding lets you convert location text into geographic coordinates. Reverse geocoding turns geographic coordinates into place names. Mapbox is an open source mapping platform for developers.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://www.mapbox.com/developers/api",
-      "Category": "Geocoding",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mapbox Geocoding",
       "Description": "The Mapbox Geocoding API does forward geocoding (search place names and return coordinates) and reverse geocoding (search coordinates and return place names)",
       "Auth": "apiKey",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://docs.mapbox.com/api",
+      "Category": "Geocoding",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Mapbox Geocoding",
+      "Description": "The Mapbox Geocoding API does two things: geocoding and reverse geocoding. Geocoding lets you convert location text into geographic coordinates. Reverse geocoding turns geographic coordinates into place names. Mapbox is an open source mapping platform for developers.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://www.mapbox.com/developers/api",
       "Category": "Geocoding",
       "Pricing": "unknown"
     },
@@ -131533,16 +131533,6 @@
     },
     {
       "API Name": "The Guardian",
-      "Description": "Access all the content the Guardian creates, categorised by tags and section",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "http://open-platform.theguardian.com/",
-      "Category": "News",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "The Guardian",
       "Description": "Access articles and content from The Guardian newspaper.",
       "Auth": "apiKey",
       "HTTPS": true,
@@ -131550,6 +131540,16 @@
       "Documentation Link": "https://open-platform.theguardian.com/documentation",
       "Category": "News",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "The Guardian",
+      "Description": "Access all the content the Guardian creates, categorised by tags and section",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "http://open-platform.theguardian.com/",
+      "Category": "News",
+      "Pricing": "free"
     },
     {
       "API Name": "The Hollowverse GraphQL",
@@ -132163,16 +132163,6 @@
     },
     {
       "API Name": "They Said So Quotes",
-      "Description": "They Said So Quotes API offers a complete feature rich REST API access to its quotes platform.  This is the documentation for the world famous [quotes API](https://theysaidso.com/api).  If you are a subscriber and you are trying this from a console add 'X-TheySaidSo-Api-Secret' header and add your api key as the header value. You can test and play with the API right here on this web page. For using the private end points and subscribing to the API please visit https://theysaidso.com/api.",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://theysaidso.com/api/quote",
-      "Category": "Machine Learning",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "They Said So Quotes",
       "Description": "Quotes Trusted by many fortune brands around the world",
       "Auth": "",
       "HTTPS": true,
@@ -132180,6 +132170,16 @@
       "Documentation Link": "https://theysaidso.com/api/",
       "Category": "Personality",
       "Pricing": "free"
+    },
+    {
+      "API Name": "They Said So Quotes",
+      "Description": "They Said So Quotes API offers a complete feature rich REST API access to its quotes platform.  This is the documentation for the world famous [quotes API](https://theysaidso.com/api).  If you are a subscriber and you are trying this from a console add 'X-TheySaidSo-Api-Secret' header and add your api key as the header value. You can test and play with the API right here on this web page. For using the private end points and subscribing to the API please visit https://theysaidso.com/api.",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://theysaidso.com/api/quote",
+      "Category": "Machine Learning",
+      "Pricing": "unknown"
     },
     {
       "API Name": "TheySay AffectR",
