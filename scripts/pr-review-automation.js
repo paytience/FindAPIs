@@ -91,14 +91,32 @@ async function run() {
   }
 }
 
+async function fetchFileContent(repoOwner, repoName, filePath, ref) {
+  const meta = await ghApi(
+    `/repos/${repoOwner}/${repoName}/contents/${filePath}?ref=${ref}`,
+  );
+  if (meta.content) {
+    return Buffer.from(meta.content, "base64").toString("utf8");
+  }
+  const res = await fetch(meta.download_url, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  if (!res.ok) {
+    throw new Error(`Failed to download ${filePath}: ${res.status}`);
+  }
+  return res.text();
+}
+
 async function validateResourcesChange(owner, repo, pr, file) {
   const issues = [];
   const info = [];
 
-  const headContent = await ghApi(
-    `/repos/${pr.head.repo.owner.login}/${pr.head.repo.name}/contents/db/resources.json?ref=${pr.head.sha}`,
+  const decoded = await fetchFileContent(
+    pr.head.repo.owner.login,
+    pr.head.repo.name,
+    "db/resources.json",
+    pr.head.sha,
   );
-  const decoded = Buffer.from(headContent.content, "base64").toString("utf8");
 
   let headJson;
   try {
