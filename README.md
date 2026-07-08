@@ -16,7 +16,7 @@
 
 ## Categories
 
-**15522 APIs** across **53 categories**
+**15523 APIs** across **53 categories**
 
 | Category | APIs |
 |----------|------|
@@ -63,7 +63,7 @@
 | [Science & Math](./categories/science-and-math.md) | 335 |
 | [Security](./categories/security.md) | 339 |
 | [Shopping](./categories/shopping.md) | 507 |
-| [Social](./categories/social.md) | 754 |
+| [Social](./categories/social.md) | 755 |
 | [Sports & Fitness](./categories/sports-and-fitness.md) | 274 |
 | [Test Data](./categories/test-data.md) | 72 |
 | [Text Analysis](./categories/text-analysis.md) | 24 |
