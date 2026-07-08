@@ -1,143 +1,267 @@
-const { context, getOctokit } = require("@actions/github");
 const fs = require("fs");
+const path = require("path");
 
 const token = process.env.GITHUB_TOKEN;
-const octokit = getOctokit(token);
+const eventPath = process.env.GITHUB_EVENT_PATH;
+
+const VALID_AUTH = ["apiKey", "OAuth", "Bearer", "No", ""];
+const VALID_CORS = ["yes", "no", "unknown"];
+const VALID_PRICING = ["free", "freemium", "paid", "unknown"];
+const REQUIRED_FIELDS = [
+  "API Name",
+  "Auth",
+  "HTTPS",
+  "Cors",
+  "Documentation Link",
+  "Category",
+];
+
+async function ghApi(endpoint, options = {}) {
+  const url = endpoint.startsWith("https://")
+    ? endpoint
+    : `https://api.github.com${endpoint}`;
+  const res = await fetch(url, {
+    ...options,
+    headers: {
+      Authorization: `Bearer ${token}`,
+      Accept: "application/vnd.github+json",
+      "X-GitHub-Api-Version": "2022-11-28",
+      ...options.headers,
+    },
+  });
+  if (!res.ok) {
+    throw new Error(`GitHub API ${res.status}: ${await res.text()}`);
+  }
+  return res.json();
+}
 
 async function run() {
-  try {
-    const pr = context.payload.pull_request;
-    const { owner, repo } = context.repo;
-    const prNumber = pr.number;
+  const event = JSON.parse(fs.readFileSync(eventPath, "utf8"));
+  const pr = event.pull_request;
+  const owner = event.repository.owner.login;
+  const repo = event.repository.name;
+  const prNumber = pr.number;
 
-    console.log(`Working with repository: ${owner}/${repo}`);
-    console.log(`PR number: ${prNumber}`);
-    console.log(`PR author: ${pr.user.login}`);
-    console.log(`Head repo: ${pr.head.repo.full_name}`);
-    console.log(`Base repo: ${pr.base.repo.full_name}`);
-    console.log(`Head SHA: ${pr.head.sha}`);
-    console.log(`Base SHA: ${pr.base.sha}`);
-    console.log(`Head ref: ${pr.head.ref}`);
-    console.log(`Base ref: ${pr.base.ref}`);
+  console.log(`Reviewing PR #${prNumber} by ${pr.user.login}`);
 
-    const filesChanged = await octokit.rest.pulls.listFiles({
+  const files = await ghApi(
+    `/repos/${owner}/${repo}/pulls/${prNumber}/files?per_page=100`,
+  );
+
+  const comments = [];
+  const resourcesFile = files.find(
+    (f) => f.filename === "db/resources.json" && f.status !== "removed",
+  );
+  const readmeFile = files.find(
+    (f) => f.filename === "README.md" && f.status !== "removed",
+  );
+  const categoryFiles = files.filter(
+    (f) => f.filename.startsWith("categories/") && f.status !== "removed",
+  );
+
+  if ((readmeFile || categoryFiles.length > 0) && !resourcesFile) {
+    comments.push(
+      "⚠️ **Auto-generated files modified**\n\n" +
+        "`README.md` and `categories/*.md` are auto-generated from `db/resources.json`. " +
+        "Please edit `db/resources.json` instead. See the [contributing guide](CONTRIBUTING.md) for details.",
+    );
+  }
+
+  if (resourcesFile) {
+    const validation = await validateResourcesChange(
       owner,
       repo,
-      pull_number: prNumber,
+      pr,
+      resourcesFile,
+    );
+    if (validation) {
+      comments.push(validation);
+    }
+  }
+
+  if (comments.length > 0) {
+    const body = comments.join("\n\n---\n\n");
+    await ghApi(`/repos/${owner}/${repo}/issues/${prNumber}/comments`, {
+      method: "POST",
+      body: JSON.stringify({ body }),
     });
-
-    const comments = [];
-
-    // Check 1: New API links in README.md
-    const readmeFile = filesChanged.data.find(
-      (file) => file.filename.toLowerCase() === "readme.md",
-    );
-
-    if (readmeFile) {
-      console.log("README.md modified. Checking for new API links...");
-      const newLinks = await checkForNewApiLinks(owner, repo, pr);
-      if (newLinks.length > 0) {
-        const linkComment =
-          newLinks.length === 1
-            ? `**API link:** ${newLinks[0]}`
-            : [
-                "**New API links:**",
-                "",
-                ...newLinks.map((link) => `- ${link}`),
-              ].join("\n");
-        comments.push(linkComment);
-      }
-    }
-
-    // Check 2: Edits to /db folder
-    const dbFiles = filesChanged.data.filter((file) =>
-      file.filename.startsWith("db/"),
-    );
-
-    if (dbFiles.length > 0) {
-      console.log(
-        `DB folder modifications detected in ${dbFiles.length} file(s)`,
-      );
-      const dbWarning =
-        "Thanks for your contribution!\n❗️ **Warning:** The `/db` folder is auto-generated, so please do not edit it. Changes related to public APIs should happen in the `README.md` file. Read the [contribution guidelines](https://github.com/paytience/public-apis/blob/main/CONTRIBUTING.md) for more details.";
-      comments.push(dbWarning);
-    }
-
-    // Post all comments as a single comment
-    if (comments.length > 0) {
-      const finalComment = comments.join("\n\n---\n\n");
-
-      await octokit.rest.issues.createComment({
-        owner,
-        repo,
-        issue_number: prNumber,
-        body: finalComment,
-      });
-
-      console.log("Comment posted with all checks.");
-    } else {
-      console.log("No issues found in this PR.");
-    }
-  } catch (error) {
-    console.error("Error in PR review automation:", error);
-    // Don't exit with error code to avoid failing the entire workflow
-    // Just log the error and continue
+    console.log("Review comment posted.");
+  } else {
+    console.log("No issues found.");
   }
 }
 
-async function checkForNewApiLinks(owner, repo, pr) {
+async function validateResourcesChange(owner, repo, pr, file) {
+  const issues = [];
+  const info = [];
+
+  const headContent = await ghApi(
+    `/repos/${pr.head.repo.owner.login}/${pr.head.repo.name}/contents/db/resources.json?ref=${pr.head.sha}`,
+  );
+  const decoded = Buffer.from(headContent.content, "base64").toString("utf8");
+
+  let headJson;
   try {
-    // For pull_request_target, we need to get content from the correct repositories
-    // Base content from the target repository (upstream)
-    const baseRes = await octokit.rest.repos.getContent({
-      owner,
-      repo,
-      path: "README.md",
-      ref: pr.base.sha, // Use SHA instead of ref name
-    });
+    headJson = JSON.parse(decoded);
+  } catch (e) {
+    return "❌ **Invalid JSON** in `db/resources.json`: " + e.message;
+  }
 
-    // Head content from the source repository (could be a fork)
-    const headRes = await octokit.rest.repos.getContent({
-      owner: pr.head.repo.owner.login,
-      repo: pr.head.repo.name,
-      path: "README.md",
-      ref: pr.head.sha, // Use SHA instead of ref name
-    });
-
-    const decode = (res) =>
-      Buffer.from(res.data.content, "base64").toString("utf8");
-    const baseContent = decode(baseRes);
-    const headContent = decode(headRes);
-
-    const baseLinks = new Set(
-      [...baseContent.matchAll(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g)].map(
-        (m) => m[2],
-      ),
+  const actualCount = headJson.entries.length;
+  if (headJson.count !== actualCount) {
+    issues.push(
+      `\`count\` field is ${headJson.count} but there are ${actualCount} entries`,
     );
-    const headLinks = new Set(
-      [...headContent.matchAll(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g)].map(
-        (m) => m[2],
-      ),
-    );
+  }
 
-    const newLinks = [...headLinks].filter((link) => !baseLinks.has(link));
+  const patch = file.patch || "";
+  const newEntries = extractNewEntries(patch);
 
-    console.log(`Base links found: ${baseLinks.size}`);
-    console.log(`Head links found: ${headLinks.size}`);
-    console.log(`New links found: ${newLinks.length}`);
+  if (newEntries.length === 0) {
+    if (issues.length > 0) {
+      return "### Validation Issues\n\n" + issues.map((i) => `- ${i}`).join("\n");
+    }
+    return null;
+  }
 
-    if (newLinks.length > 0) {
-      console.log("New links:", newLinks);
+  for (const entry of newEntries) {
+    const entryIssues = validateEntry(entry);
+    if (entryIssues.length > 0) {
+      issues.push(
+        ...entryIssues.map((i) => `**${entry["API Name"] || "Unknown"}**: ${i}`),
+      );
     }
 
-    return newLinks;
-  } catch (error) {
-    console.error("Error checking for new API links:", error);
-    return []; // Return empty array on error to avoid breaking the workflow
+    info.push(formatEntryInfo(entry));
   }
+
+  const parts = [];
+
+  if (info.length > 0) {
+    const header = newEntries.length === 1 ? "### New API" : "### New APIs";
+    parts.push(header + "\n\n" + info.join("\n\n"));
+  }
+
+  if (issues.length > 0) {
+    parts.push(
+      "### Validation Issues\n\n" + issues.map((i) => `- ⚠️ ${i}`).join("\n"),
+    );
+  }
+
+  if (issues.length === 0 && info.length > 0) {
+    parts.push("✅ Entry format looks good.");
+  }
+
+  return parts.join("\n\n") || null;
+}
+
+function extractNewEntries(patch) {
+  const entries = [];
+  const lines = patch.split("\n");
+  let current = null;
+  let buffer = "";
+  let inNew = false;
+
+  for (const line of lines) {
+    if (!line.startsWith("+") || line.startsWith("+++")) continue;
+    const content = line.slice(1);
+
+    if (content.trim() === "{" && !inNew) {
+      inNew = true;
+      buffer = "{";
+      continue;
+    }
+
+    if (inNew) {
+      buffer += "\n" + content;
+      if (content.trim() === "}" || content.trim() === "},") {
+        try {
+          const clean = buffer.replace(/,\s*$/, "");
+          const parsed = JSON.parse(clean);
+          if (parsed["API Name"]) {
+            entries.push(parsed);
+          }
+        } catch (e) {
+          // Not a complete entry
+        }
+        inNew = false;
+        buffer = "";
+      }
+    }
+  }
+
+  return entries;
+}
+
+function validateEntry(entry) {
+  const issues = [];
+
+  for (const field of REQUIRED_FIELDS) {
+    if (entry[field] === undefined || entry[field] === null) {
+      issues.push(`missing required field \`${field}\``);
+    }
+  }
+
+  if (entry["API Name"] && entry["API Name"].toLowerCase().endsWith("api")) {
+    issues.push("name should not end with \"API\"");
+  }
+
+  if (
+    entry["Description"] &&
+    entry["Description"].length > 100
+  ) {
+    issues.push(
+      `description is ${entry["Description"].length} characters (max 100)`,
+    );
+  }
+
+  if (entry["Auth"] !== undefined && !VALID_AUTH.includes(entry["Auth"])) {
+    issues.push(
+      `invalid Auth value \`${entry["Auth"]}\` (valid: ${VALID_AUTH.filter(Boolean).join(", ")}, or empty)`,
+    );
+  }
+
+  if (entry["HTTPS"] !== undefined && typeof entry["HTTPS"] !== "boolean") {
+    issues.push(`HTTPS must be \`true\` or \`false\`, got \`${entry["HTTPS"]}\``);
+  }
+
+  if (entry["Cors"] && !VALID_CORS.includes(entry["Cors"])) {
+    issues.push(
+      `invalid Cors value \`${entry["Cors"]}\` (valid: ${VALID_CORS.join(", ")})`,
+    );
+  }
+
+  if (entry["Pricing"] && !VALID_PRICING.includes(entry["Pricing"])) {
+    issues.push(
+      `invalid Pricing value \`${entry["Pricing"]}\` (valid: ${VALID_PRICING.join(", ")})`,
+    );
+  }
+
+  const docLink = entry["Documentation Link"];
+  if (docLink && !docLink.startsWith("http://") && !docLink.startsWith("https://")) {
+    issues.push("Documentation Link must start with `http://` or `https://`");
+  }
+
+  return issues;
+}
+
+function formatEntryInfo(entry) {
+  const lines = [
+    `| Field | Value |`,
+    `|-------|-------|`,
+    `| Name | **${entry["API Name"]}** |`,
+    `| Description | ${entry["Description"] || "(empty)"} |`,
+    `| Category | ${entry["Category"]} |`,
+    `| Auth | ${entry["Auth"] || "None"} |`,
+    `| HTTPS | ${entry["HTTPS"]} |`,
+    `| CORS | ${entry["Cors"]} |`,
+    `| Docs | ${entry["Documentation Link"]} |`,
+    `| Pricing | ${entry["Pricing"] || "unknown"} |`,
+  ];
+  return lines.join("\n");
 }
 
 run().catch((error) => {
-  console.error(error);
+  console.error("Error:", error.message);
   process.exit(1);
 });

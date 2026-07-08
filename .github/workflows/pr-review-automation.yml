@@ -5,6 +5,7 @@ on:
     paths:
       - README.md
       - db/**
+      - categories/**
     types: [opened, synchronize]
 
 jobs:
@@ -23,9 +24,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-
-      - name: Install deps (if needed)
-        run: npm install @actions/github
 
       - name: Run PR review automation
         run: node scripts/pr-review-automation.js
