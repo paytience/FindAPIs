@@ -57453,22 +57453,22 @@
     },
     {
       "API Name": "Google Cloud Monitoring",
-      "Description": "Manages your Cloud Monitoring data and configurations.",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://cloud.google.com/monitoring/docs/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Cloud Monitoring",
       "Description": "Google Cloud Monitoring provides access to metrics and data from the Google Cloud Platform. Developers can access and integrate the functionality of Google Cloud Monitoring with other applications. Some example API methods include retrieving usage data and costs, managing users, and retrieving information on issues.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://cloud.google.com/monitoring/api",
       "Category": "Cloud Storage & File Sharing",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Cloud Monitoring",
+      "Description": "Manages your Cloud Monitoring data and configurations.",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://cloud.google.com/monitoring/docs/",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
@@ -59193,16 +59193,6 @@
     },
     {
       "API Name": "Google Sheets",
-      "Description": "Reads and writes Google Sheets.",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.google.com/sheets/api/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Sheets",
       "Description": "API to read, write, and format Google Sheets data",
       "Auth": "OAuth",
       "HTTPS": true,
@@ -59210,6 +59200,16 @@
       "Documentation Link": "https://developers.google.com/sheets/api/reference/rest",
       "Category": "Development",
       "Pricing": "free"
+    },
+    {
+      "API Name": "Google Sheets",
+      "Description": "Reads and writes Google Sheets.",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.google.com/sheets/api/",
+      "Category": "Development",
+      "Pricing": "unknown"
     },
     {
       "API Name": "Google Shopping Content",
@@ -93483,16 +93483,6 @@
     },
     {
       "API Name": "Notion",
-      "Description": "Integrate with Notion",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.notion.com/docs/getting-started",
-      "Category": "Documents & Productivity",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "Notion",
       "Description": "Hello and welcome!\n\nTo make use of this API collection collection as it's written, please duplicate [this database template](https://www.notion.so/8e2c2b769e1d47d287b9ed3035d607ae?v=dc1b92875fb94f10834ba8d36549bd2a).\n\n[Create an integration](https://www.notion.so/my-integrations) to retrieve an API token, add your database and page ID's as variables in the collection, and start making your requests!\n\nFor our full documentation, including sample integrations and guides, visit [developers.notion.com](developers.notion.com)\n\nNeed more help? Join our [developer community on Slack](https://join.slack.com/t/notiondevs/shared_invite/zt-lkrnk74h-YmPRroySRFGiqgjI193AqA/)",
       "Auth": "",
       "HTTPS": true,
@@ -93500,6 +93490,16 @@
       "Documentation Link": "https://notion.com",
       "Category": "Development",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "Notion",
+      "Description": "Integrate with Notion",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.notion.com/docs/getting-started",
+      "Category": "Documents & Productivity",
+      "Pricing": "free"
     },
     {
       "API Name": "Noun Project",
@@ -132173,16 +132173,6 @@
     },
     {
       "API Name": "They Said So Quotes",
-      "Description": "Quotes Trusted by many fortune brands around the world",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://theysaidso.com/api/",
-      "Category": "Personality",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "They Said So Quotes",
       "Description": "They Said So Quotes API offers a complete feature rich REST API access to its quotes platform.  This is the documentation for the world famous [quotes API](https://theysaidso.com/api).  If you are a subscriber and you are trying this from a console add 'X-TheySaidSo-Api-Secret' header and add your api key as the header value. You can test and play with the API right here on this web page. For using the private end points and subscribing to the API please visit https://theysaidso.com/api.",
       "Auth": "apiKey",
       "HTTPS": true,
@@ -132190,6 +132180,16 @@
       "Documentation Link": "https://theysaidso.com/api/quote",
       "Category": "Machine Learning",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "They Said So Quotes",
+      "Description": "Quotes Trusted by many fortune brands around the world",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://theysaidso.com/api/",
+      "Category": "Personality",
+      "Pricing": "free"
     },
     {
       "API Name": "TheySay AffectR",
