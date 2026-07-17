@@ -91763,21 +91763,21 @@
     },
     {
       "API Name": "Neutrino",
-      "Description": "Neutrino API is a general-purpose Cloud API.\nFeatures:\n• Email address validation and cleaning\n• Phone number validation and geolocation\n• IP geolocation\n• User-agent parsing with mobile device features\n• BIN and IIN lookup\n• Domain and IP reputation checking\n• URL validation and monitoring\n• HTML cleaning and sanitizing\n• HTML to PDF rendering\n• HTML resource extraction\n• Bad word filtering\n• Currency conversion\n• Unit conversion\n• High quality image resizing and water-marking\n• And more...",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://www.neutrinoapi.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Neutrino",
       "Description": "The general-purpose API",
       "Auth": "apiKey",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://www.neutrinoapi.com/",
+      "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Neutrino",
+      "Description": "Neutrino API is a general-purpose Cloud API.\nFeatures:\n• Email address validation and cleaning\n• Phone number validation and geolocation\n• IP geolocation\n• User-agent parsing with mobile device features\n• BIN and IIN lookup\n• Domain and IP reputation checking\n• URL validation and monitoring\n• HTML cleaning and sanitizing\n• HTML to PDF rendering\n• HTML resource extraction\n• Bad word filtering\n• Currency conversion\n• Unit conversion\n• High quality image resizing and water-marking\n• And more...",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://www.neutrinoapi.com",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -132173,16 +132173,6 @@
     },
     {
       "API Name": "They Said So Quotes",
-      "Description": "They Said So Quotes API offers a complete feature rich REST API access to its quotes platform.  This is the documentation for the world famous [quotes API](https://theysaidso.com/api).  If you are a subscriber and you are trying this from a console add 'X-TheySaidSo-Api-Secret' header and add your api key as the header value. You can test and play with the API right here on this web page. For using the private end points and subscribing to the API please visit https://theysaidso.com/api.",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://theysaidso.com/api/quote",
-      "Category": "Machine Learning",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "They Said So Quotes",
       "Description": "Quotes Trusted by many fortune brands around the world",
       "Auth": "",
       "HTTPS": true,
@@ -132190,6 +132180,16 @@
       "Documentation Link": "https://theysaidso.com/api/",
       "Category": "Personality",
       "Pricing": "free"
+    },
+    {
+      "API Name": "They Said So Quotes",
+      "Description": "They Said So Quotes API offers a complete feature rich REST API access to its quotes platform.  This is the documentation for the world famous [quotes API](https://theysaidso.com/api).  If you are a subscriber and you are trying this from a console add 'X-TheySaidSo-Api-Secret' header and add your api key as the header value. You can test and play with the API right here on this web page. For using the private end points and subscribing to the API please visit https://theysaidso.com/api.",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://theysaidso.com/api/quote",
+      "Category": "Machine Learning",
+      "Pricing": "unknown"
     },
     {
       "API Name": "TheySay AffectR",
@@ -134793,22 +134793,22 @@
     },
     {
       "API Name": "Tradematic Cloud",
-      "Description": "Tradematic Cloud is a back-end infrastructure for building investment and trading apps. It’s a powerful algorithmic trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers. 12+ exchanges, 5 asset classes, 150 indicators. You can use it as a cloud API, or you can deploy it on your servers. See examples of applications to build with Tradematic Cloud at https://tradematic.cloud",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://tradematic.cloud",
-      "Category": "Finance",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Tradematic Cloud",
       "Description": "### Overview\nTradematic Cloud is a trading infrastructure for building investment services.\n\nIt’s a trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers.\n\nYou can use it as a cloud API, or you can deploy it on your servers. \n\n\n\n### How to use Tradematic Cloud API\n\nSign up at [tradematic.cloud](https://tradematic.cloud). After signing up, you will receive your API key.\n\n### Authorization\n\nAdd the 'X-API-KEY' header with your API key to each request.\n\n### Examples of writing code with Tradematic Cloud API\n\nExamples are available at [tradematic.cloud](https://tradematic.cloud). \n\n### Swagger (.yaml) File\nSwagger (.yaml) file can be found [here](http://tradematic.cloud/sdk/swagger.yaml).",
       "Auth": "apiKey",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://tradematic.com",
       "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Tradematic Cloud",
+      "Description": "Tradematic Cloud is a back-end infrastructure for building investment and trading apps. It’s a powerful algorithmic trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers. 12+ exchanges, 5 asset classes, 150 indicators. You can use it as a cloud API, or you can deploy it on your servers. See examples of applications to build with Tradematic Cloud at https://tradematic.cloud",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://tradematic.cloud",
+      "Category": "Finance",
       "Pricing": "unknown"
     },
     {
