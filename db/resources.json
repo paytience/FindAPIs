@@ -1,5 +1,5 @@
 {
-  "count": 15524,
+  "count": 15525,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -77000,6 +77000,16 @@
       "Documentation Link": "https://user.lastline.com/papi-doc/api/html/radius/overview.html",
       "Category": "Security",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "Latchshot",
+      "Description": "Render public webpages as PNG, JPEG, or PDF with bounded options and network guardrails",
+      "Auth": "Bearer",
+      "HTTPS": true,
+      "Cors": "no",
+      "Documentation Link": "https://latchshot.fly.dev/docs.md",
+      "Category": "Development",
+      "Pricing": "freemium"
     },
     {
       "API Name": "Lateral.io",
