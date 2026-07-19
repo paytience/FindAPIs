@@ -57453,22 +57453,22 @@
     },
     {
       "API Name": "Google Cloud Monitoring",
-      "Description": "Google Cloud Monitoring provides access to metrics and data from the Google Cloud Platform. Developers can access and integrate the functionality of Google Cloud Monitoring with other applications. Some example API methods include retrieving usage data and costs, managing users, and retrieving information on issues.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://cloud.google.com/monitoring/api",
-      "Category": "Cloud Storage & File Sharing",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Cloud Monitoring",
       "Description": "Manages your Cloud Monitoring data and configurations.",
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://cloud.google.com/monitoring/docs/",
       "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Cloud Monitoring",
+      "Description": "Google Cloud Monitoring provides access to metrics and data from the Google Cloud Platform. Developers can access and integrate the functionality of Google Cloud Monitoring with other applications. Some example API methods include retrieving usage data and costs, managing users, and retrieving information on issues.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://cloud.google.com/monitoring/api",
+      "Category": "Cloud Storage & File Sharing",
       "Pricing": "unknown"
     },
     {
@@ -58043,16 +58043,6 @@
     },
     {
       "API Name": "Google Docs",
-      "Description": "Reads and writes Google Docs documents.",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.google.com/docs/api/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Docs",
       "Description": "API to read, write, and format Google Docs documents",
       "Auth": "OAuth",
       "HTTPS": true,
@@ -58060,6 +58050,16 @@
       "Documentation Link": "https://developers.google.com/docs/api/reference/rest",
       "Category": "Development",
       "Pricing": "free"
+    },
+    {
+      "API Name": "Google Docs",
+      "Description": "Reads and writes Google Docs documents.",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.google.com/docs/api/",
+      "Category": "Development",
+      "Pricing": "unknown"
     },
     {
       "API Name": "Google DoubleClick Ad Exchange Seller",
@@ -115183,21 +115183,21 @@
     },
     {
       "API Name": "Salesforce SOAP",
-      "Description": "This SOAP API allows you to create, retrieve, update or delete records, such as accounts, leads, and custom objects while interacting with Force.com. It also allows you to maintain passwords, perform searches and more. This API is available for use in any language that supports Web services. Salesforce is a customer relationship management services company.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_quickstart_intro.htm",
-      "Category": "Business",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Salesforce SOAP",
       "Description": "The Force.com SOAP API (formerly known as the Force.com Web Services API) lets you integrate Force.com applications that can create, retrieve, update or delete records managed by Salesforce, Force.com, and Database.com, records such as accounts, leads, and custom objects. With more than 20 different calls, SOAP API also lets you to maintain passwords, perform searches, and much more. You can use the SOAP API with any programming language that supports Web services",
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developer.salesforce.com/docs",
+      "Category": "Business",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Salesforce SOAP",
+      "Description": "This SOAP API allows you to create, retrieve, update or delete records, such as accounts, leads, and custom objects while interacting with Force.com. It also allows you to maintain passwords, perform searches and more. This API is available for use in any language that supports Web services. Salesforce is a customer relationship management services company.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_quickstart_intro.htm",
       "Category": "Business",
       "Pricing": "unknown"
     },
@@ -132823,22 +132823,22 @@
     },
     {
       "API Name": "Ticketmaster Discovery",
-      "Description": "The Ticketmaster Discovery API allows developers to programmatically search, look up, and find specific events, attractions, venues, and classifications. By default, API users can make up to 5000 calls/day. Rate increases are provided on a case-by-case basis. Ticketmaster is an online ticket retail platform that offers tickets for concerts, sporting events, plays, fairs, and more.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developer.ticketmaster.com/products-and-docs/apis/discovery/v2",
-      "Category": "Events",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Ticketmaster Discovery",
       "Description": "The Ticketmaster Discovery API allows you to search for events, attractions, or venues.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "http://developer.ticketmaster.com/support/contact-us/",
       "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Ticketmaster Discovery",
+      "Description": "The Ticketmaster Discovery API allows developers to programmatically search, look up, and find specific events, attractions, venues, and classifications. By default, API users can make up to 5000 calls/day. Rate increases are provided on a case-by-case basis. Ticketmaster is an online ticket retail platform that offers tickets for concerts, sporting events, plays, fairs, and more.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developer.ticketmaster.com/products-and-docs/apis/discovery/v2",
+      "Category": "Events",
       "Pricing": "unknown"
     },
     {
