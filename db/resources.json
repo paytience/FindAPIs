@@ -82223,22 +82223,22 @@
     },
     {
       "API Name": "Mastercard MATCH",
-      "Description": "Helps acquirers identify potentially high-risk merchants before entering to a merchant agreement.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://mastercard.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mastercard MATCH",
       "Description": "Member Alert to Control High-risk Merchants (MATCH) is Mastercardâ€™s offering to acquirers for vetting merchants prior to entering into contracts with them. Users must inquire with Mastercard for MATCH certification. The API provides real-time and automated access to the MATCH database which contains information about terminated merchants that users are required to keep updated. The API uses RESTful calls and provides responses in XML.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developer.mastercard.com/portal/display/api/MATCH",
       "Category": "Finance",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Mastercard MATCH",
+      "Description": "Helps acquirers identify potentially high-risk merchants before entering to a merchant agreement.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://mastercard.com",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
@@ -111883,16 +111883,6 @@
     },
     {
       "API Name": "Resend",
-      "Description": "Modern email API for developers with React Email support.",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://resend.com/docs",
-      "Category": "Email",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Resend",
       "Description": "Email API for developers",
       "Auth": "apiKey",
       "HTTPS": true,
@@ -111900,6 +111890,16 @@
       "Documentation Link": "https://resend.com/docs/",
       "Category": "Email",
       "Pricing": "free"
+    },
+    {
+      "API Name": "Resend",
+      "Description": "Modern email API for developers with React Email support.",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://resend.com/docs",
+      "Category": "Email",
+      "Pricing": "unknown"
     },
     {
       "API Name": "Resighting",
@@ -132823,22 +132823,22 @@
     },
     {
       "API Name": "Ticketmaster Discovery",
-      "Description": "The Ticketmaster Discovery API allows you to search for events, attractions, or venues.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "http://developer.ticketmaster.com/support/contact-us/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Ticketmaster Discovery",
       "Description": "The Ticketmaster Discovery API allows developers to programmatically search, look up, and find specific events, attractions, venues, and classifications. By default, API users can make up to 5000 calls/day. Rate increases are provided on a case-by-case basis. Ticketmaster is an online ticket retail platform that offers tickets for concerts, sporting events, plays, fairs, and more.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developer.ticketmaster.com/products-and-docs/apis/discovery/v2",
       "Category": "Events",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Ticketmaster Discovery",
+      "Description": "The Ticketmaster Discovery API allows you to search for events, attractions, or venues.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "http://developer.ticketmaster.com/support/contact-us/",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
