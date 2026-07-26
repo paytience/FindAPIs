@@ -16,7 +16,7 @@
 
 ## Categories
 
-**15524 APIs** across **53 categories**
+**15525 APIs** across **53 categories**
 
 | Category | APIs |
 |----------|------|
@@ -34,7 +34,7 @@
 | [Cryptocurrency](./categories/cryptocurrency.md) | 298 |
 | [Currency Exchange](./categories/currency-exchange.md) | 44 |
 | [Data Validation](./categories/data-validation.md) | 13 |
-| [Development](./categories/development.md) | 2203 |
+| [Development](./categories/development.md) | 2204 |
 | [Dictionaries](./categories/dictionaries.md) | 11 |
 | [Documents & Productivity](./categories/documents-and-productivity.md) | 173 |
 | [Email](./categories/email.md) | 275 |
