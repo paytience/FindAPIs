@@ -58463,16 +58463,6 @@
     },
     {
       "API Name": "Google Keep",
-      "Description": "API to read, write, and format Google Keep notes",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.google.com/keep/api/reference/rest",
-      "Category": "Development",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "Google Keep",
       "Description": "The Google Keep API is used in an enterprise environment to manage Google Keep content and resolve issues identified by cloud security software.",
       "Auth": "OAuth",
       "HTTPS": true,
@@ -58480,6 +58470,16 @@
       "Documentation Link": "https://developers.google.com/keep/api/",
       "Category": "News",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Keep",
+      "Description": "API to read, write, and format Google Keep notes",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.google.com/keep/api/reference/rest",
+      "Category": "Development",
+      "Pricing": "free"
     },
     {
       "API Name": "Google Knowledge Graph Search",
