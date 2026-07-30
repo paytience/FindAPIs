@@ -56853,21 +56853,21 @@
     },
     {
       "API Name": "Google App Engine Admin",
-      "Description": "The Google App Engine Admin API allows developers to provision and manage their App Engine applications. It provides a way to build modern web and mobile applications on an open cloud platform using your own language runtimes, frameworks, and third party libraries. It enables developers with the ability to build scalable web and mobile backends in any language on Google’s infrastructure.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://cloud.google.com/appengine",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google App Engine Admin",
       "Description": "Provisions and manages developers' App Engine applications.",
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://cloud.google.com/appengine/docs/admin-api/",
+      "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google App Engine Admin",
+      "Description": "The Google App Engine Admin API allows developers to provision and manage their App Engine applications. It provides a way to build modern web and mobile applications on an open cloud platform using your own language runtimes, frameworks, and third party libraries. It enables developers with the ability to build scalable web and mobile backends in any language on Google’s infrastructure.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://cloud.google.com/appengine",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -58463,16 +58463,6 @@
     },
     {
       "API Name": "Google Keep",
-      "Description": "The Google Keep API is used in an enterprise environment to manage Google Keep content and resolve issues identified by cloud security software.",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.google.com/keep/api/",
-      "Category": "News",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Keep",
       "Description": "API to read, write, and format Google Keep notes",
       "Auth": "OAuth",
       "HTTPS": true,
@@ -58480,6 +58470,16 @@
       "Documentation Link": "https://developers.google.com/keep/api/reference/rest",
       "Category": "Development",
       "Pricing": "free"
+    },
+    {
+      "API Name": "Google Keep",
+      "Description": "The Google Keep API is used in an enterprise environment to manage Google Keep content and resolve issues identified by cloud security software.",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.google.com/keep/api/",
+      "Category": "News",
+      "Pricing": "unknown"
     },
     {
       "API Name": "Google Knowledge Graph Search",
@@ -82233,22 +82233,22 @@
     },
     {
       "API Name": "Mastercard MATCH",
-      "Description": "Helps acquirers identify potentially high-risk merchants before entering to a merchant agreement.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://mastercard.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mastercard MATCH",
       "Description": "Member Alert to Control High-risk Merchants (MATCH) is Mastercardâ€™s offering to acquirers for vetting merchants prior to entering into contracts with them. Users must inquire with Mastercard for MATCH certification. The API provides real-time and automated access to the MATCH database which contains information about terminated merchants that users are required to keep updated. The API uses RESTful calls and provides responses in XML.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developer.mastercard.com/portal/display/api/MATCH",
       "Category": "Finance",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Mastercard MATCH",
+      "Description": "Helps acquirers identify potentially high-risk merchants before entering to a merchant agreement.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://mastercard.com",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
@@ -115203,21 +115203,21 @@
     },
     {
       "API Name": "Salesforce SOAP",
-      "Description": "This SOAP API allows you to create, retrieve, update or delete records, such as accounts, leads, and custom objects while interacting with Force.com. It also allows you to maintain passwords, perform searches and more. This API is available for use in any language that supports Web services. Salesforce is a customer relationship management services company.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_quickstart_intro.htm",
-      "Category": "Business",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Salesforce SOAP",
       "Description": "The Force.com SOAP API (formerly known as the Force.com Web Services API) lets you integrate Force.com applications that can create, retrieve, update or delete records managed by Salesforce, Force.com, and Database.com, records such as accounts, leads, and custom objects. With more than 20 different calls, SOAP API also lets you to maintain passwords, perform searches, and much more. You can use the SOAP API with any programming language that supports Web services",
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developer.salesforce.com/docs",
+      "Category": "Business",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Salesforce SOAP",
+      "Description": "This SOAP API allows you to create, retrieve, update or delete records, such as accounts, leads, and custom objects while interacting with Force.com. It also allows you to maintain passwords, perform searches and more. This API is available for use in any language that supports Web services. Salesforce is a customer relationship management services company.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_quickstart_intro.htm",
       "Category": "Business",
       "Pricing": "unknown"
     },
@@ -132843,22 +132843,22 @@
     },
     {
       "API Name": "Ticketmaster Discovery",
-      "Description": "The Ticketmaster Discovery API allows you to search for events, attractions, or venues.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "http://developer.ticketmaster.com/support/contact-us/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Ticketmaster Discovery",
       "Description": "The Ticketmaster Discovery API allows developers to programmatically search, look up, and find specific events, attractions, venues, and classifications. By default, API users can make up to 5000 calls/day. Rate increases are provided on a case-by-case basis. Ticketmaster is an online ticket retail platform that offers tickets for concerts, sporting events, plays, fairs, and more.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developer.ticketmaster.com/products-and-docs/apis/discovery/v2",
       "Category": "Events",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Ticketmaster Discovery",
+      "Description": "The Ticketmaster Discovery API allows you to search for events, attractions, or venues.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "http://developer.ticketmaster.com/support/contact-us/",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
