@@ -59193,16 +59193,6 @@
     },
     {
       "API Name": "Google Sheets",
-      "Description": "API to read, write, and format Google Sheets data",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.google.com/sheets/api/reference/rest",
-      "Category": "Development",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "Google Sheets",
       "Description": "Reads and writes Google Sheets.",
       "Auth": "OAuth",
       "HTTPS": true,
@@ -59210,6 +59200,16 @@
       "Documentation Link": "https://developers.google.com/sheets/api/",
       "Category": "Development",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Sheets",
+      "Description": "API to read, write, and format Google Sheets data",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.google.com/sheets/api/reference/rest",
+      "Category": "Development",
+      "Pricing": "free"
     },
     {
       "API Name": "Google Shopping Content",
@@ -91783,21 +91783,21 @@
     },
     {
       "API Name": "Neutrino",
-      "Description": "The general-purpose API",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://www.neutrinoapi.com/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Neutrino",
       "Description": "Neutrino API is a general-purpose Cloud API.\nFeatures:\n• Email address validation and cleaning\n• Phone number validation and geolocation\n• IP geolocation\n• User-agent parsing with mobile device features\n• BIN and IIN lookup\n• Domain and IP reputation checking\n• URL validation and monitoring\n• HTML cleaning and sanitizing\n• HTML to PDF rendering\n• HTML resource extraction\n• Bad word filtering\n• Currency conversion\n• Unit conversion\n• High quality image resizing and water-marking\n• And more...",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://www.neutrinoapi.com",
+      "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Neutrino",
+      "Description": "The general-purpose API",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://www.neutrinoapi.com/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -111903,16 +111903,6 @@
     },
     {
       "API Name": "Resend",
-      "Description": "Modern email API for developers with React Email support.",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://resend.com/docs",
-      "Category": "Email",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Resend",
       "Description": "Email API for developers",
       "Auth": "apiKey",
       "HTTPS": true,
@@ -111920,6 +111910,16 @@
       "Documentation Link": "https://resend.com/docs/",
       "Category": "Email",
       "Pricing": "free"
+    },
+    {
+      "API Name": "Resend",
+      "Description": "Modern email API for developers with React Email support.",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://resend.com/docs",
+      "Category": "Email",
+      "Pricing": "unknown"
     },
     {
       "API Name": "Resighting",
@@ -132843,22 +132843,22 @@
     },
     {
       "API Name": "Ticketmaster Discovery",
-      "Description": "The Ticketmaster Discovery API allows developers to programmatically search, look up, and find specific events, attractions, venues, and classifications. By default, API users can make up to 5000 calls/day. Rate increases are provided on a case-by-case basis. Ticketmaster is an online ticket retail platform that offers tickets for concerts, sporting events, plays, fairs, and more.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developer.ticketmaster.com/products-and-docs/apis/discovery/v2",
-      "Category": "Events",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Ticketmaster Discovery",
       "Description": "The Ticketmaster Discovery API allows you to search for events, attractions, or venues.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "http://developer.ticketmaster.com/support/contact-us/",
       "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Ticketmaster Discovery",
+      "Description": "The Ticketmaster Discovery API allows developers to programmatically search, look up, and find specific events, attractions, venues, and classifications. By default, API users can make up to 5000 calls/day. Rate increases are provided on a case-by-case basis. Ticketmaster is an online ticket retail platform that offers tickets for concerts, sporting events, plays, fairs, and more.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developer.ticketmaster.com/products-and-docs/apis/discovery/v2",
+      "Category": "Events",
       "Pricing": "unknown"
     },
     {
