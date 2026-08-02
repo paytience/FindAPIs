@@ -56853,21 +56853,21 @@
     },
     {
       "API Name": "Google App Engine Admin",
-      "Description": "Provisions and manages developers' App Engine applications.",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://cloud.google.com/appengine/docs/admin-api/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google App Engine Admin",
       "Description": "The Google App Engine Admin API allows developers to provision and manage their App Engine applications. It provides a way to build modern web and mobile applications on an open cloud platform using your own language runtimes, frameworks, and third party libraries. It enables developers with the ability to build scalable web and mobile backends in any language on Google’s infrastructure.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://cloud.google.com/appengine",
+      "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google App Engine Admin",
+      "Description": "Provisions and manages developers' App Engine applications.",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://cloud.google.com/appengine/docs/admin-api/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -91783,21 +91783,21 @@
     },
     {
       "API Name": "Neutrino",
-      "Description": "Neutrino API is a general-purpose Cloud API.\nFeatures:\n• Email address validation and cleaning\n• Phone number validation and geolocation\n• IP geolocation\n• User-agent parsing with mobile device features\n• BIN and IIN lookup\n• Domain and IP reputation checking\n• URL validation and monitoring\n• HTML cleaning and sanitizing\n• HTML to PDF rendering\n• HTML resource extraction\n• Bad word filtering\n• Currency conversion\n• Unit conversion\n• High quality image resizing and water-marking\n• And more...",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://www.neutrinoapi.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Neutrino",
       "Description": "The general-purpose API",
       "Auth": "apiKey",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://www.neutrinoapi.com/",
+      "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Neutrino",
+      "Description": "Neutrino API is a general-purpose Cloud API.\nFeatures:\n• Email address validation and cleaning\n• Phone number validation and geolocation\n• IP geolocation\n• User-agent parsing with mobile device features\n• BIN and IIN lookup\n• Domain and IP reputation checking\n• URL validation and monitoring\n• HTML cleaning and sanitizing\n• HTML to PDF rendering\n• HTML resource extraction\n• Bad word filtering\n• Currency conversion\n• Unit conversion\n• High quality image resizing and water-marking\n• And more...",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://www.neutrinoapi.com",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -127113,16 +127113,6 @@
     },
     {
       "API Name": "Strava",
-      "Description": "Connect with athletes, activities and more",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://strava.github.io/api/",
-      "Category": "Sports & Fitness",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "Strava",
       "Description": "Fitness tracking data, activities, and athlete profiles.",
       "Auth": "OAuth",
       "HTTPS": true,
@@ -127130,6 +127120,16 @@
       "Documentation Link": "https://developers.strava.com/docs",
       "Category": "Sports & Fitness",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "Strava",
+      "Description": "Connect with athletes, activities and more",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://strava.github.io/api/",
+      "Category": "Sports & Fitness",
+      "Pricing": "free"
     },
     {
       "API Name": "Streak",
@@ -132193,16 +132193,6 @@
     },
     {
       "API Name": "They Said So Quotes",
-      "Description": "Quotes Trusted by many fortune brands around the world",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://theysaidso.com/api/",
-      "Category": "Personality",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "They Said So Quotes",
       "Description": "They Said So Quotes API offers a complete feature rich REST API access to its quotes platform.  This is the documentation for the world famous [quotes API](https://theysaidso.com/api).  If you are a subscriber and you are trying this from a console add 'X-TheySaidSo-Api-Secret' header and add your api key as the header value. You can test and play with the API right here on this web page. For using the private end points and subscribing to the API please visit https://theysaidso.com/api.",
       "Auth": "apiKey",
       "HTTPS": true,
@@ -132210,6 +132200,16 @@
       "Documentation Link": "https://theysaidso.com/api/quote",
       "Category": "Machine Learning",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "They Said So Quotes",
+      "Description": "Quotes Trusted by many fortune brands around the world",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://theysaidso.com/api/",
+      "Category": "Personality",
+      "Pricing": "free"
     },
     {
       "API Name": "TheySay AffectR",
@@ -132843,22 +132843,22 @@
     },
     {
       "API Name": "Ticketmaster Discovery",
-      "Description": "The Ticketmaster Discovery API allows you to search for events, attractions, or venues.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "http://developer.ticketmaster.com/support/contact-us/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Ticketmaster Discovery",
       "Description": "The Ticketmaster Discovery API allows developers to programmatically search, look up, and find specific events, attractions, venues, and classifications. By default, API users can make up to 5000 calls/day. Rate increases are provided on a case-by-case basis. Ticketmaster is an online ticket retail platform that offers tickets for concerts, sporting events, plays, fairs, and more.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developer.ticketmaster.com/products-and-docs/apis/discovery/v2",
       "Category": "Events",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Ticketmaster Discovery",
+      "Description": "The Ticketmaster Discovery API allows you to search for events, attractions, or venues.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "http://developer.ticketmaster.com/support/contact-us/",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
