@@ -56853,21 +56853,21 @@
     },
     {
       "API Name": "Google App Engine Admin",
-      "Description": "The Google App Engine Admin API allows developers to provision and manage their App Engine applications. It provides a way to build modern web and mobile applications on an open cloud platform using your own language runtimes, frameworks, and third party libraries. It enables developers with the ability to build scalable web and mobile backends in any language on Google’s infrastructure.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://cloud.google.com/appengine",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google App Engine Admin",
       "Description": "Provisions and manages developers' App Engine applications.",
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://cloud.google.com/appengine/docs/admin-api/",
+      "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google App Engine Admin",
+      "Description": "The Google App Engine Admin API allows developers to provision and manage their App Engine applications. It provides a way to build modern web and mobile applications on an open cloud platform using your own language runtimes, frameworks, and third party libraries. It enables developers with the ability to build scalable web and mobile backends in any language on Google’s infrastructure.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://cloud.google.com/appengine",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59193,16 +59193,6 @@
     },
     {
       "API Name": "Google Sheets",
-      "Description": "Reads and writes Google Sheets.",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.google.com/sheets/api/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Sheets",
       "Description": "API to read, write, and format Google Sheets data",
       "Auth": "OAuth",
       "HTTPS": true,
@@ -59210,6 +59200,16 @@
       "Documentation Link": "https://developers.google.com/sheets/api/reference/rest",
       "Category": "Development",
       "Pricing": "free"
+    },
+    {
+      "API Name": "Google Sheets",
+      "Description": "Reads and writes Google Sheets.",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.google.com/sheets/api/",
+      "Category": "Development",
+      "Pricing": "unknown"
     },
     {
       "API Name": "Google Shopping Content",
