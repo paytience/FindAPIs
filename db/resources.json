@@ -112713,16 +112713,6 @@
     },
     {
       "API Name": "Rick and Morty",
-      "Description": "Characters, locations, and episodes from Rick and Morty.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "yes",
-      "Documentation Link": "https://rickandmortyapi.com/documentation",
-      "Category": "Games & Comics",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Rick and Morty",
       "Description": "All the Rick and Morty information, including images",
       "Auth": "",
       "HTTPS": true,
@@ -112730,6 +112720,16 @@
       "Documentation Link": "https://rickandmortyapi.com",
       "Category": "Games & Comics",
       "Pricing": "free"
+    },
+    {
+      "API Name": "Rick and Morty",
+      "Description": "Characters, locations, and episodes from Rick and Morty.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Documentation Link": "https://rickandmortyapi.com/documentation",
+      "Category": "Games & Comics",
+      "Pricing": "unknown"
     },
     {
       "API Name": "Rickshaw",
@@ -132193,16 +132193,6 @@
     },
     {
       "API Name": "They Said So Quotes",
-      "Description": "Quotes Trusted by many fortune brands around the world",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://theysaidso.com/api/",
-      "Category": "Personality",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "They Said So Quotes",
       "Description": "They Said So Quotes API offers a complete feature rich REST API access to its quotes platform.  This is the documentation for the world famous [quotes API](https://theysaidso.com/api).  If you are a subscriber and you are trying this from a console add 'X-TheySaidSo-Api-Secret' header and add your api key as the header value. You can test and play with the API right here on this web page. For using the private end points and subscribing to the API please visit https://theysaidso.com/api.",
       "Auth": "apiKey",
       "HTTPS": true,
@@ -132210,6 +132200,16 @@
       "Documentation Link": "https://theysaidso.com/api/quote",
       "Category": "Machine Learning",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "They Said So Quotes",
+      "Description": "Quotes Trusted by many fortune brands around the world",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://theysaidso.com/api/",
+      "Category": "Personality",
+      "Pricing": "free"
     },
     {
       "API Name": "TheySay AffectR",
