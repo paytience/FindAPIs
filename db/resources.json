@@ -1,5 +1,5 @@
 {
-  "count": 15526,
+  "count": 15527,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -79780,6 +79780,16 @@
       "Documentation Link": "http://www.lotteryfeed.com/our-lottery-feed.htm",
       "Category": "Other",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "LottoLens PH Public Data",
+      "Description": "Fixed Philippine PCSO draw results and schedules with row-level source provenance",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Documentation Link": "https://remo65588-boop.github.io/lottolens-ph-public-data/api/",
+      "Category": "Open Data",
+      "Pricing": "free"
     },
     {
       "API Name": "Lottorisq",
