@@ -69183,22 +69183,22 @@
     },
     {
       "API Name": "Interzoid Get Full Name Parsed Match Similarity Key",
-      "Description": "The Interzoid Parsed Name Match API provides an algorithmically generated similarity key used to match with parsed full name data. This API uses JSON for responses, and API Keys for authentication. Interzoid powers data-driven applications with several tools based on spelling variation analysis, learning methods, and specific language knowledge.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://www.interzoid.com/services/getfullnameparsedmatch",
-      "Category": "Open Data",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Interzoid Get Full Name Parsed Match Similarity Key",
       "Description": "This API provides a similarity key used to match with other similar full name data when data fields are parsed into first name and last name components, including for purposes of deduplication, fuzzy matching, or merging of datasets. A much higher match rate will be achieved by matching on the similarity key rather than the data itself. This API is for full name data where first and last name are in separate fields. Use the Full Name Similarity Key API for first and last name data that are in the same field.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://www.interzoid.com",
       "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Interzoid Get Full Name Parsed Match Similarity Key",
+      "Description": "The Interzoid Parsed Name Match API provides an algorithmically generated similarity key used to match with parsed full name data. This API uses JSON for responses, and API Keys for authentication. Interzoid powers data-driven applications with several tools based on spelling variation analysis, learning methods, and specific language knowledge.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://www.interzoid.com/services/getfullnameparsedmatch",
+      "Category": "Open Data",
       "Pricing": "unknown"
     },
     {
@@ -91783,21 +91783,21 @@
     },
     {
       "API Name": "Neutrino",
-      "Description": "The general-purpose API",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://www.neutrinoapi.com/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Neutrino",
       "Description": "Neutrino API is a general-purpose Cloud API.\nFeatures:\n• Email address validation and cleaning\n• Phone number validation and geolocation\n• IP geolocation\n• User-agent parsing with mobile device features\n• BIN and IIN lookup\n• Domain and IP reputation checking\n• URL validation and monitoring\n• HTML cleaning and sanitizing\n• HTML to PDF rendering\n• HTML resource extraction\n• Bad word filtering\n• Currency conversion\n• Unit conversion\n• High quality image resizing and water-marking\n• And more...",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://www.neutrinoapi.com",
+      "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Neutrino",
+      "Description": "The general-purpose API",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://www.neutrinoapi.com/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -109003,16 +109003,6 @@
     },
     {
       "API Name": "QuickChart",
-      "Description": "An API to generate charts and QR codes using QuickChart services.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://quickchart.io",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "QuickChart",
       "Description": "Generate chart and graph images",
       "Auth": "",
       "HTTPS": true,
@@ -109020,6 +109010,16 @@
       "Documentation Link": "https://quickchart.io/",
       "Category": "Development",
       "Pricing": "free"
+    },
+    {
+      "API Name": "QuickChart",
+      "Description": "An API to generate charts and QR codes using QuickChart services.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://quickchart.io",
+      "Category": "Development",
+      "Pricing": "unknown"
     },
     {
       "API Name": "QuickGO",
@@ -132193,16 +132193,6 @@
     },
     {
       "API Name": "They Said So Quotes",
-      "Description": "Quotes Trusted by many fortune brands around the world",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://theysaidso.com/api/",
-      "Category": "Personality",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "They Said So Quotes",
       "Description": "They Said So Quotes API offers a complete feature rich REST API access to its quotes platform.  This is the documentation for the world famous [quotes API](https://theysaidso.com/api).  If you are a subscriber and you are trying this from a console add 'X-TheySaidSo-Api-Secret' header and add your api key as the header value. You can test and play with the API right here on this web page. For using the private end points and subscribing to the API please visit https://theysaidso.com/api.",
       "Auth": "apiKey",
       "HTTPS": true,
@@ -132210,6 +132200,16 @@
       "Documentation Link": "https://theysaidso.com/api/quote",
       "Category": "Machine Learning",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "They Said So Quotes",
+      "Description": "Quotes Trusted by many fortune brands around the world",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://theysaidso.com/api/",
+      "Category": "Personality",
+      "Pricing": "free"
     },
     {
       "API Name": "TheySay AffectR",
