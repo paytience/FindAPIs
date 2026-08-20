@@ -16,7 +16,7 @@
 
 ## Categories
 
-**15526 APIs** across **53 categories**
+**15527 APIs** across **53 categories**
 
 | Category | APIs |
 |----------|------|
@@ -51,7 +51,7 @@
 | [Machine Learning](./categories/machine-learning.md) | 249 |
 | [Music](./categories/music.md) | 216 |
 | [News](./categories/news.md) | 53 |
-| [Open Data](./categories/open-data.md) | 970 |
+| [Open Data](./categories/open-data.md) | 971 |
 | [Open Source Projects](./categories/open-source-projects.md) | 45 |
 | [Other](./categories/other.md) | 1493 |
 | [Patent](./categories/patent.md) | 4 |
