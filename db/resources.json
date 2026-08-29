@@ -56853,21 +56853,21 @@
     },
     {
       "API Name": "Google App Engine Admin",
-      "Description": "The Google App Engine Admin API allows developers to provision and manage their App Engine applications. It provides a way to build modern web and mobile applications on an open cloud platform using your own language runtimes, frameworks, and third party libraries. It enables developers with the ability to build scalable web and mobile backends in any language on Google’s infrastructure.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://cloud.google.com/appengine",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google App Engine Admin",
       "Description": "Provisions and manages developers' App Engine applications.",
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://cloud.google.com/appengine/docs/admin-api/",
+      "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google App Engine Admin",
+      "Description": "The Google App Engine Admin API allows developers to provision and manage their App Engine applications. It provides a way to build modern web and mobile applications on an open cloud platform using your own language runtimes, frameworks, and third party libraries. It enables developers with the ability to build scalable web and mobile backends in any language on Google’s infrastructure.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://cloud.google.com/appengine",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -86423,22 +86423,22 @@
     },
     {
       "API Name": "Mist",
-      "Description": "> Version: **0.36.1**\n>\n> Date: **March 3, 2022**\n\n---\n\n#### Available Documentation\n* [Postman](https://documenter.getpostman.com/view/224925/SzYgQufe)\n* [Open API](https://doc.mist-lab.fr/)\n\n---\n#### Useful links\n* [Mist Homepage](https://www.mist.com)\n* [Mist Documentation](https://www.mist.com/documentation)\n* [Official API Documentation](https://api.mist.com/api/v1/docs/Home) (Mist account required)\n* [Mist Blog](https://www.mist.com/news/?md_post_type=post)\n* [Mist Updates](https://www.mist.com/documentation/category/product-updates/)",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://mist.com",
-      "Category": "News",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mist",
       "Description": "Mist is an AI driven wireless network platform. Mist combines Wi-Fi, BLE, and IoT together for personalized wireless services that run without battery powered beacons. The Mist WLAN platform features microservices for SaaS agility, containers, big data collection, and machine learning algorithms to adapt in real–time to changes in user, device, and application behavior.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://www.mist.com",
       "Category": "Machine Learning",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Mist",
+      "Description": "> Version: **0.36.1**\n>\n> Date: **March 3, 2022**\n\n---\n\n#### Available Documentation\n* [Postman](https://documenter.getpostman.com/view/224925/SzYgQufe)\n* [Open API](https://doc.mist-lab.fr/)\n\n---\n#### Useful links\n* [Mist Homepage](https://www.mist.com)\n* [Mist Documentation](https://www.mist.com/documentation)\n* [Official API Documentation](https://api.mist.com/api/v1/docs/Home) (Mist account required)\n* [Mist Blog](https://www.mist.com/news/?md_post_type=post)\n* [Mist Updates](https://www.mist.com/documentation/category/product-updates/)",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://mist.com",
+      "Category": "News",
       "Pricing": "unknown"
     },
     {
