@@ -57453,22 +57453,22 @@
     },
     {
       "API Name": "Google Cloud Monitoring",
-      "Description": "Manages your Cloud Monitoring data and configurations.",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://cloud.google.com/monitoring/docs/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Cloud Monitoring",
       "Description": "Google Cloud Monitoring provides access to metrics and data from the Google Cloud Platform. Developers can access and integrate the functionality of Google Cloud Monitoring with other applications. Some example API methods include retrieving usage data and costs, managing users, and retrieving information on issues.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://cloud.google.com/monitoring/api",
       "Category": "Cloud Storage & File Sharing",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Cloud Monitoring",
+      "Description": "Manages your Cloud Monitoring data and configurations.",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://cloud.google.com/monitoring/docs/",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
@@ -132853,22 +132853,22 @@
     },
     {
       "API Name": "Ticketmaster Discovery",
-      "Description": "The Ticketmaster Discovery API allows you to search for events, attractions, or venues.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "http://developer.ticketmaster.com/support/contact-us/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Ticketmaster Discovery",
       "Description": "The Ticketmaster Discovery API allows developers to programmatically search, look up, and find specific events, attractions, venues, and classifications. By default, API users can make up to 5000 calls/day. Rate increases are provided on a case-by-case basis. Ticketmaster is an online ticket retail platform that offers tickets for concerts, sporting events, plays, fairs, and more.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developer.ticketmaster.com/products-and-docs/apis/discovery/v2",
       "Category": "Events",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Ticketmaster Discovery",
+      "Description": "The Ticketmaster Discovery API allows you to search for events, attractions, or venues.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "http://developer.ticketmaster.com/support/contact-us/",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
