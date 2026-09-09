@@ -91793,21 +91793,21 @@
     },
     {
       "API Name": "Neutrino",
-      "Description": "The general-purpose API",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://www.neutrinoapi.com/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Neutrino",
       "Description": "Neutrino API is a general-purpose Cloud API.\nFeatures:\n• Email address validation and cleaning\n• Phone number validation and geolocation\n• IP geolocation\n• User-agent parsing with mobile device features\n• BIN and IIN lookup\n• Domain and IP reputation checking\n• URL validation and monitoring\n• HTML cleaning and sanitizing\n• HTML to PDF rendering\n• HTML resource extraction\n• Bad word filtering\n• Currency conversion\n• Unit conversion\n• High quality image resizing and water-marking\n• And more...",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://www.neutrinoapi.com",
+      "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Neutrino",
+      "Description": "The general-purpose API",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://www.neutrinoapi.com/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -108693,22 +108693,22 @@
     },
     {
       "API Name": "Qualtrics",
-      "Description": "Work with Qualtrics surveys, distributions and response events",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://qualtrics.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Qualtrics",
       "Description": "The service allows applications to integrate survey functionality, with specification of questions to ask, conditional display of questions depending on answers to prior questions, and aggregation and reporting of responses. It is intended to support academic research, customer service, preference polling, internal communications and employee feedback, and related functions.\nAPI methods support creation of survey questions with a range of response options, designation of survey recipients (either individuals or panels), questionnaire display, and logging of responses. Methods also support retrieval of response data for analysis outside the system.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://api.qualtrics.com/",
       "Category": "Other",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Qualtrics",
+      "Description": "Work with Qualtrics surveys, distributions and response events",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://qualtrics.com",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
