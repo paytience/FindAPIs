@@ -59313,22 +59313,22 @@
     },
     {
       "API Name": "Google Storage Transfer",
-      "Description": "Transfers data from external data sources to a Google Cloud Storage bucket or between Google Cloud Storage buckets.",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://cloud.google.com/storage-transfer/docs/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Storage Transfer",
       "Description": "This Rest API allows you to transfer data from external data sources to a Google Cloud Storage bucket or between Google Cloud Storage buckets. It is available for use in XML or JSON format and returns Google Service Account, Transfer Jobs, Transfer Operations and more. Google Cloud helps developers build with cloud tools and infrastructure, applications, maps and devices.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://cloud.google.com/storage",
       "Category": "Cloud Storage & File Sharing",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Storage Transfer",
+      "Description": "Transfers data from external data sources to a Google Cloud Storage bucket or between Google Cloud Storage buckets.",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://cloud.google.com/storage-transfer/docs/",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
