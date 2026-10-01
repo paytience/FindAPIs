@@ -56013,16 +56013,6 @@
     },
     {
       "API Name": "GNews",
-      "Description": "Google News data with search and top headlines.",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://gnews.io/docs",
-      "Category": "News",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "GNews",
       "Description": "Search for news from various sources",
       "Auth": "apiKey",
       "HTTPS": true,
@@ -56030,6 +56020,16 @@
       "Documentation Link": "https://gnews.io/",
       "Category": "News",
       "Pricing": "free"
+    },
+    {
+      "API Name": "GNews",
+      "Description": "Google News data with search and top headlines.",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://gnews.io/docs",
+      "Category": "News",
+      "Pricing": "unknown"
     },
     {
       "API Name": "Gnip Audience",
@@ -81343,21 +81343,21 @@
     },
     {
       "API Name": "Mapbox Geocoding",
-      "Description": "The Mapbox Geocoding API does forward geocoding (search place names and return coordinates) and reverse geocoding (search coordinates and return place names)",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://docs.mapbox.com/api",
-      "Category": "Geocoding",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mapbox Geocoding",
       "Description": "The Mapbox Geocoding API does two things: geocoding and reverse geocoding. Geocoding lets you convert location text into geographic coordinates. Reverse geocoding turns geographic coordinates into place names. Mapbox is an open source mapping platform for developers.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://www.mapbox.com/developers/api",
+      "Category": "Geocoding",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Mapbox Geocoding",
+      "Description": "The Mapbox Geocoding API does forward geocoding (search place names and return coordinates) and reverse geocoding (search coordinates and return place names)",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://docs.mapbox.com/api",
       "Category": "Geocoding",
       "Pricing": "unknown"
     },
@@ -93513,16 +93513,6 @@
     },
     {
       "API Name": "Notion",
-      "Description": "Hello and welcome!\n\nTo make use of this API collection collection as it's written, please duplicate [this database template](https://www.notion.so/8e2c2b769e1d47d287b9ed3035d607ae?v=dc1b92875fb94f10834ba8d36549bd2a).\n\n[Create an integration](https://www.notion.so/my-integrations) to retrieve an API token, add your database and page ID's as variables in the collection, and start making your requests!\n\nFor our full documentation, including sample integrations and guides, visit [developers.notion.com](developers.notion.com)\n\nNeed more help? Join our [developer community on Slack](https://join.slack.com/t/notiondevs/shared_invite/zt-lkrnk74h-YmPRroySRFGiqgjI193AqA/)",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://notion.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Notion",
       "Description": "Integrate with Notion",
       "Auth": "OAuth",
       "HTTPS": true,
@@ -93530,6 +93520,16 @@
       "Documentation Link": "https://developers.notion.com/docs/getting-started",
       "Category": "Documents & Productivity",
       "Pricing": "free"
+    },
+    {
+      "API Name": "Notion",
+      "Description": "Hello and welcome!\n\nTo make use of this API collection collection as it's written, please duplicate [this database template](https://www.notion.so/8e2c2b769e1d47d287b9ed3035d607ae?v=dc1b92875fb94f10834ba8d36549bd2a).\n\n[Create an integration](https://www.notion.so/my-integrations) to retrieve an API token, add your database and page ID's as variables in the collection, and start making your requests!\n\nFor our full documentation, including sample integrations and guides, visit [developers.notion.com](developers.notion.com)\n\nNeed more help? Join our [developer community on Slack](https://join.slack.com/t/notiondevs/shared_invite/zt-lkrnk74h-YmPRroySRFGiqgjI193AqA/)",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://notion.com",
+      "Category": "Development",
+      "Pricing": "unknown"
     },
     {
       "API Name": "Noun Project",
