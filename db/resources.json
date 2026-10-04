@@ -81293,16 +81293,6 @@
     },
     {
       "API Name": "Mapbox",
-      "Description": "Custom maps, geocoding, directions, and location search.",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://docs.mapbox.com",
-      "Category": "Geocoding",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mapbox",
       "Description": "Create/customize beautiful digital maps",
       "Auth": "apiKey",
       "HTTPS": true,
@@ -81310,6 +81300,16 @@
       "Documentation Link": "https://docs.mapbox.com/",
       "Category": "Geocoding",
       "Pricing": "free"
+    },
+    {
+      "API Name": "Mapbox",
+      "Description": "Custom maps, geocoding, directions, and location search.",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://docs.mapbox.com",
+      "Category": "Geocoding",
+      "Pricing": "unknown"
     },
     {
       "API Name": "Mapbox Analytics",
