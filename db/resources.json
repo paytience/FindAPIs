@@ -82243,22 +82243,22 @@
     },
     {
       "API Name": "Mastercard MATCH",
-      "Description": "Helps acquirers identify potentially high-risk merchants before entering to a merchant agreement.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://mastercard.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mastercard MATCH",
       "Description": "Member Alert to Control High-risk Merchants (MATCH) is Mastercardâ€™s offering to acquirers for vetting merchants prior to entering into contracts with them. Users must inquire with Mastercard for MATCH certification. The API provides real-time and automated access to the MATCH database which contains information about terminated merchants that users are required to keep updated. The API uses RESTful calls and provides responses in XML.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developer.mastercard.com/portal/display/api/MATCH",
       "Category": "Finance",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Mastercard MATCH",
+      "Description": "Helps acquirers identify potentially high-risk merchants before entering to a merchant agreement.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://mastercard.com",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
