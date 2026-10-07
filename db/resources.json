@@ -81343,21 +81343,21 @@
     },
     {
       "API Name": "Mapbox Geocoding",
-      "Description": "The Mapbox Geocoding API does two things: geocoding and reverse geocoding. Geocoding lets you convert location text into geographic coordinates. Reverse geocoding turns geographic coordinates into place names. Mapbox is an open source mapping platform for developers.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://www.mapbox.com/developers/api",
-      "Category": "Geocoding",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mapbox Geocoding",
       "Description": "The Mapbox Geocoding API does forward geocoding (search place names and return coordinates) and reverse geocoding (search coordinates and return place names)",
       "Auth": "apiKey",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://docs.mapbox.com/api",
+      "Category": "Geocoding",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Mapbox Geocoding",
+      "Description": "The Mapbox Geocoding API does two things: geocoding and reverse geocoding. Geocoding lets you convert location text into geographic coordinates. Reverse geocoding turns geographic coordinates into place names. Mapbox is an open source mapping platform for developers.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://www.mapbox.com/developers/api",
       "Category": "Geocoding",
       "Pricing": "unknown"
     },
