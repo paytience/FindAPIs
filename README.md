@@ -16,7 +16,7 @@
 
 ## Categories
 
-**15527 APIs** across **53 categories**
+**15528 APIs** across **53 categories**
 
 | Category | APIs |
 |----------|------|
@@ -27,7 +27,7 @@
 | [Authentication & Authorization](./categories/authentication-and-authorization.md) | 103 |
 | [Blockchain](./categories/blockchain.md) | 89 |
 | [Books](./categories/books.md) | 52 |
-| [Business](./categories/business.md) | 969 |
+| [Business](./categories/business.md) | 970 |
 | [Calendar](./categories/calendar.md) | 17 |
 | [Cloud Storage & File Sharing](./categories/cloud-storage-and-file-sharing.md) | 398 |
 | [Continuous Integration](./categories/continuous-integration.md) | 7 |

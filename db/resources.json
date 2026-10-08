@@ -1,5 +1,5 @@
 {
-  "count": 15527,
+  "count": 15528,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -24399,6 +24399,16 @@
       "Cors": "",
       "Documentation Link": "http://www.chatterous.com/faq/api",
       "Category": "Social",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Chatway",
+      "Description": "Chatway offers a REST API and outbound webhooks for customer-support conversations, messages, contacts, notes and tags. Applications can read records, send replies and manage conversation status. REST uses X-API-KEY over HTTPS. Hosted MCP at https://mcp.chatway.app/mcp supports OAuth-authorized AI assistants. Free includes API, MCP and webhooks, subject to plan-based conversation limits and paid-feature restrictions. Paid plans are available.",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Documentation Link": "https://developers.chatway.app/",
+      "Category": "Business",
       "Pricing": "unknown"
     },
     {
@@ -58483,21 +58493,21 @@
     },
     {
       "API Name": "Google Knowledge Graph Search",
-      "Description": "The Google Knowledge Graph Search API is a tool that helps users find entities within the Google Knowledge Graph. Some of the features provided by the Google Knowledge Graph Search API are: get a ranked list of the most notable entities that match certain criteria; ability to predictably complete entities in a search box; and annotate and organize content using the Knowledge Graph entities. The Google Knowledge Graph is an innovative knowledge base used to enhance Google's search results with semantic-search information gathered from a variety of sources.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.google.com/knowledge-graph",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Knowledge Graph Search",
       "Description": "Searches the Google Knowledge Graph for entities.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developers.google.com/knowledge-graph/",
+      "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Knowledge Graph Search",
+      "Description": "The Google Knowledge Graph Search API is a tool that helps users find entities within the Google Knowledge Graph. Some of the features provided by the Google Knowledge Graph Search API are: get a ranked list of the most notable entities that match certain criteria; ability to predictably complete entities in a search box; and annotate and organize content using the Knowledge Graph entities. The Google Knowledge Graph is an innovative knowledge base used to enhance Google's search results with semantic-search information gathered from a variety of sources.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.google.com/knowledge-graph",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59043,16 +59053,6 @@
     },
     {
       "API Name": "Google Safe Browsing",
-      "Description": "Google Link/Domain Flagging",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.google.com/safe-browsing/",
-      "Category": "Anti-Malware",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "Google Safe Browsing",
       "Description": "Enables client applications to check web resources (most commonly URLs) against Google-generated lists of unsafe web resources. The Safe Browsing APIs are for non-commercial use only. If you need to use APIs to detect malicious URLs for commercial purposes – meaning “for sale or revenue-generating purposes” – please refer to the Web Risk API.",
       "Auth": "",
       "HTTPS": true,
@@ -59060,6 +59060,16 @@
       "Documentation Link": "https://developers.google.com/safe-browsing/",
       "Category": "Machine Learning",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Safe Browsing",
+      "Description": "Google Link/Domain Flagging",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.google.com/safe-browsing/",
+      "Category": "Anti-Malware",
+      "Pricing": "free"
     },
     {
       "API Name": "Google SAS Portal",
@@ -86423,22 +86433,22 @@
     },
     {
       "API Name": "Mist",
-      "Description": "Mist is an AI driven wireless network platform. Mist combines Wi-Fi, BLE, and IoT together for personalized wireless services that run without battery powered beacons. The Mist WLAN platform features microservices for SaaS agility, containers, big data collection, and machine learning algorithms to adapt in real–time to changes in user, device, and application behavior.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://www.mist.com",
-      "Category": "Machine Learning",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mist",
       "Description": "> Version: **0.36.1**\n>\n> Date: **March 3, 2022**\n\n---\n\n#### Available Documentation\n* [Postman](https://documenter.getpostman.com/view/224925/SzYgQufe)\n* [Open API](https://doc.mist-lab.fr/)\n\n---\n#### Useful links\n* [Mist Homepage](https://www.mist.com)\n* [Mist Documentation](https://www.mist.com/documentation)\n* [Official API Documentation](https://api.mist.com/api/v1/docs/Home) (Mist account required)\n* [Mist Blog](https://www.mist.com/news/?md_post_type=post)\n* [Mist Updates](https://www.mist.com/documentation/category/product-updates/)",
       "Auth": "apiKey",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://mist.com",
       "Category": "News",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Mist",
+      "Description": "Mist is an AI driven wireless network platform. Mist combines Wi-Fi, BLE, and IoT together for personalized wireless services that run without battery powered beacons. The Mist WLAN platform features microservices for SaaS agility, containers, big data collection, and machine learning algorithms to adapt in real–time to changes in user, device, and application behavior.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://www.mist.com",
+      "Category": "Machine Learning",
       "Pricing": "unknown"
     },
     {
@@ -132853,22 +132863,22 @@
     },
     {
       "API Name": "Ticketmaster Discovery",
-      "Description": "The Ticketmaster Discovery API allows you to search for events, attractions, or venues.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "http://developer.ticketmaster.com/support/contact-us/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Ticketmaster Discovery",
       "Description": "The Ticketmaster Discovery API allows developers to programmatically search, look up, and find specific events, attractions, venues, and classifications. By default, API users can make up to 5000 calls/day. Rate increases are provided on a case-by-case basis. Ticketmaster is an online ticket retail platform that offers tickets for concerts, sporting events, plays, fairs, and more.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developer.ticketmaster.com/products-and-docs/apis/discovery/v2",
       "Category": "Events",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Ticketmaster Discovery",
+      "Description": "The Ticketmaster Discovery API allows you to search for events, attractions, or venues.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "http://developer.ticketmaster.com/support/contact-us/",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
