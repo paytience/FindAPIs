@@ -57463,22 +57463,22 @@
     },
     {
       "API Name": "Google Cloud Monitoring",
-      "Description": "Manages your Cloud Monitoring data and configurations.",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://cloud.google.com/monitoring/docs/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Cloud Monitoring",
       "Description": "Google Cloud Monitoring provides access to metrics and data from the Google Cloud Platform. Developers can access and integrate the functionality of Google Cloud Monitoring with other applications. Some example API methods include retrieving usage data and costs, managing users, and retrieving information on issues.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://cloud.google.com/monitoring/api",
       "Category": "Cloud Storage & File Sharing",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Cloud Monitoring",
+      "Description": "Manages your Cloud Monitoring data and configurations.",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://cloud.google.com/monitoring/docs/",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {
@@ -140883,16 +140883,6 @@
     },
     {
       "API Name": "Unsplash",
-      "Description": "High-quality free stock photos for apps and websites.",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://unsplash.com/documentation",
-      "Category": "Photography",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Unsplash",
       "Description": "Photography",
       "Auth": "OAuth",
       "HTTPS": true,
@@ -140900,6 +140890,16 @@
       "Documentation Link": "https://unsplash.com/developers",
       "Category": "Photography",
       "Pricing": "free"
+    },
+    {
+      "API Name": "Unsplash",
+      "Description": "High-quality free stock photos for apps and websites.",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://unsplash.com/documentation",
+      "Category": "Photography",
+      "Pricing": "unknown"
     },
     {
       "API Name": "UNT Digital Library Collections",
