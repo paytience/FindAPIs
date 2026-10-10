@@ -153672,6 +153672,16 @@
       "Pricing": "unknown"
     },
     {
+      "API Name": "YouTube Transcript Search API by Arcmira",
+      "Description": "Search indexed YouTube transcripts for timestamped quotes, speakers, and sponsors",
+      "Auth": "Bearer",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Documentation Link": "https://arcmira.com/docs",
+      "Category": "Video",
+      "Pricing": "freemium"
+    },
+    {
       "API Name": "youtube2gif",
       "Description": "NoXLS youtube2gif API allows users to convert YouTube video to GIF, download YouTube video, as well as specify timeframe, duration, quality. Using the standard HTTP methods like GET, POST, users will make an HTTP request and parse the response. The response format is JSON or XML. The API can be accessed using any web development language.",
       "Auth": "",
