@@ -57463,22 +57463,22 @@
     },
     {
       "API Name": "Google Cloud Monitoring",
-      "Description": "Google Cloud Monitoring provides access to metrics and data from the Google Cloud Platform. Developers can access and integrate the functionality of Google Cloud Monitoring with other applications. Some example API methods include retrieving usage data and costs, managing users, and retrieving information on issues.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://cloud.google.com/monitoring/api",
-      "Category": "Cloud Storage & File Sharing",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Cloud Monitoring",
       "Description": "Manages your Cloud Monitoring data and configurations.",
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://cloud.google.com/monitoring/docs/",
       "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Cloud Monitoring",
+      "Description": "Google Cloud Monitoring provides access to metrics and data from the Google Cloud Platform. Developers can access and integrate the functionality of Google Cloud Monitoring with other applications. Some example API methods include retrieving usage data and costs, managing users, and retrieving information on issues.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://cloud.google.com/monitoring/api",
+      "Category": "Cloud Storage & File Sharing",
       "Pricing": "unknown"
     },
     {
@@ -58473,16 +58473,6 @@
     },
     {
       "API Name": "Google Keep",
-      "Description": "API to read, write, and format Google Keep notes",
-      "Auth": "OAuth",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.google.com/keep/api/reference/rest",
-      "Category": "Development",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "Google Keep",
       "Description": "The Google Keep API is used in an enterprise environment to manage Google Keep content and resolve issues identified by cloud security software.",
       "Auth": "OAuth",
       "HTTPS": true,
@@ -58490,6 +58480,16 @@
       "Documentation Link": "https://developers.google.com/keep/api/",
       "Category": "News",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Keep",
+      "Description": "API to read, write, and format Google Keep notes",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.google.com/keep/api/reference/rest",
+      "Category": "Development",
+      "Pricing": "free"
     },
     {
       "API Name": "Google Knowledge Graph Search",
@@ -134833,22 +134833,22 @@
     },
     {
       "API Name": "Tradematic Cloud",
-      "Description": "Tradematic Cloud is a back-end infrastructure for building investment and trading apps. It’s a powerful algorithmic trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers. 12+ exchanges, 5 asset classes, 150 indicators. You can use it as a cloud API, or you can deploy it on your servers. See examples of applications to build with Tradematic Cloud at https://tradematic.cloud",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://tradematic.cloud",
-      "Category": "Finance",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Tradematic Cloud",
       "Description": "### Overview\nTradematic Cloud is a trading infrastructure for building investment services.\n\nIt’s a trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers.\n\nYou can use it as a cloud API, or you can deploy it on your servers. \n\n\n\n### How to use Tradematic Cloud API\n\nSign up at [tradematic.cloud](https://tradematic.cloud). After signing up, you will receive your API key.\n\n### Authorization\n\nAdd the 'X-API-KEY' header with your API key to each request.\n\n### Examples of writing code with Tradematic Cloud API\n\nExamples are available at [tradematic.cloud](https://tradematic.cloud). \n\n### Swagger (.yaml) File\nSwagger (.yaml) file can be found [here](http://tradematic.cloud/sdk/swagger.yaml).",
       "Auth": "apiKey",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://tradematic.com",
       "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Tradematic Cloud",
+      "Description": "Tradematic Cloud is a back-end infrastructure for building investment and trading apps. It’s a powerful algorithmic trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers. 12+ exchanges, 5 asset classes, 150 indicators. You can use it as a cloud API, or you can deploy it on your servers. See examples of applications to build with Tradematic Cloud at https://tradematic.cloud",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://tradematic.cloud",
+      "Category": "Finance",
       "Pricing": "unknown"
     },
     {
