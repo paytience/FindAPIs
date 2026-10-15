@@ -1,5 +1,5 @@
 {
-  "count": 15530,
+  "count": 15531,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -33670,6 +33670,16 @@
       "Documentation Link": "https://www.cuponica.com.ar/api/doc",
       "Category": "Shopping",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "CurlShot",
+      "Description": "Screenshot any URL as PNG, JPEG, WebP, PDF or scrolling video with one GET request",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Documentation Link": "https://curlshot.com/docs",
+      "Category": "Development",
+      "Pricing": "freemium"
     },
     {
       "API Name": "CURO Payments",
