@@ -1,5 +1,5 @@
 {
-  "count": 15530,
+  "count": 15531,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -22870,6 +22870,16 @@
       "Documentation Link": "http://www.careeronestop.org/WebServices/WebServices.aspx",
       "Category": "Jobs",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "CareJobs.Now",
+      "Description": "Free US healthcare job postings and posted pay by job kind and employer, JSON and CSV",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Documentation Link": "https://carejobs.now/data",
+      "Category": "Jobs",
+      "Pricing": "free"
     },
     {
       "API Name": "Caret",
