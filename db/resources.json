@@ -1,5 +1,5 @@
 {
-  "count": 15530,
+  "count": 15531,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -73230,6 +73230,16 @@
       "Documentation Link": "https://api.jetsetme.com",
       "Category": "Phone",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "Jev Agent",
+      "Description": "Hosted Jev model Decision API with Choice/Score/Noul probabilities and classify rulesets",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Documentation Link": "https://jev-agent.com/docs",
+      "Category": "Machine Learning",
+      "Pricing": "freemium"
     },
     {
       "API Name": "JHC FIGARO REST",
