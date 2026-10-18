@@ -1,5 +1,5 @@
 {
-  "count": 15530,
+  "count": 15531,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -153690,6 +153690,16 @@
       "Documentation Link": "https://developers.google.com/youtube/reporting/v1/reports",
       "Category": "Video",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "YouTube Transcript Search API by Arcmira",
+      "Description": "Search indexed YouTube transcripts for timestamped quotes, speakers, and sponsors",
+      "Auth": "Bearer",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Documentation Link": "https://arcmira.com/docs",
+      "Category": "Video",
+      "Pricing": "freemium"
     },
     {
       "API Name": "youtube2gif",
