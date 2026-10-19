@@ -1,5 +1,5 @@
 {
-  "count": 15530,
+  "count": 15531,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -129010,6 +129010,16 @@
       "Documentation Link": "https://api.internetcollaboratif.info/#docs",
       "Category": "Development",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "The Jobs",
+      "Description": "US and Canada employer job data, search and change feeds; 250 free records/month via RapidAPI",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "no",
+      "Documentation Link": "https://rapidapi.com/thejobsapi/api/the-jobs-api-us-canada-job-search",
+      "Category": "Jobs",
+      "Pricing": "freemium"
     },
     {
       "API Name": "TÃ¥gtider Trains",
