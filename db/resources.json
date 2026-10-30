@@ -1,5 +1,5 @@
 {
-  "count": 15536,
+  "count": 15537,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -52582,6 +52582,16 @@
       "Pricing": "unknown"
     },
     {
+      "API Name": "G Maps Crawl Search API",
+      "Description": "Search Google Maps by keyword and location and receive up to 20 businesses per request as structured JSON. Use REST or MCP with an API workspace key. API Free includes 20 monthly requests; paid plans start at $15/month, with additional-request charges on paid plans.",
+      "Auth": "Bearer",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Documentation Link": "https://gmapscrawl.com/docs",
+      "Category": "Geocoding",
+      "Pricing": "unknown"
+    },
+    {
       "API Name": "G-language GAE",
       "Description": "G-language Genome Analysis Environment (G-language GAE) is a set of Perl libraries for genome sequence analysis. It includes more than 100 original analysis programs and tends to focus on bacterial genome analysis. Programs are provided for identifying binding sites, analyzing nucleotide composition bias, analyzing the distribution of oligonucleotides, analyzing codons and predicted expression levels, and visualizing genomic information.\nThese functions are offered via REST and SOAP APIs to promote interoperability with other programming languages and bioinformatics software tools.",
       "Auth": "",
@@ -56983,21 +56993,21 @@
     },
     {
       "API Name": "Google Apps Script",
-      "Description": "The Google Apps Script API allows you to use JavaScript to interact with various Google products that include; Calendar, Docs, Drive, Gmail, Sheets, Contacts, Slides and more. It provides a way to automate tasks like spreadsheet and add buttons, and other interface components for gathering user input. Apps Script enables you to increase the power of your Google apps on a JavaScript platform in the cloud.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.google.com/apps-script",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Apps Script",
       "Description": "Manages and executes Google Apps Script projects.",
       "Auth": "OAuth",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developers.google.com/apps-script/",
+      "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Apps Script",
+      "Description": "The Google Apps Script API allows you to use JavaScript to interact with various Google products that include; Calendar, Docs, Drive, Gmail, Sheets, Contacts, Slides and more. It provides a way to automate tasks like spreadsheet and add buttons, and other interface components for gathering user input. Apps Script enables you to increase the power of your Google apps on a JavaScript platform in the cloud.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.google.com/apps-script",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -134903,22 +134913,22 @@
     },
     {
       "API Name": "Tradematic Cloud",
-      "Description": "### Overview\nTradematic Cloud is a trading infrastructure for building investment services.\n\nIt’s a trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers.\n\nYou can use it as a cloud API, or you can deploy it on your servers. \n\n\n\n### How to use Tradematic Cloud API\n\nSign up at [tradematic.cloud](https://tradematic.cloud). After signing up, you will receive your API key.\n\n### Authorization\n\nAdd the 'X-API-KEY' header with your API key to each request.\n\n### Examples of writing code with Tradematic Cloud API\n\nExamples are available at [tradematic.cloud](https://tradematic.cloud). \n\n### Swagger (.yaml) File\nSwagger (.yaml) file can be found [here](http://tradematic.cloud/sdk/swagger.yaml).",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://tradematic.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Tradematic Cloud",
       "Description": "Tradematic Cloud is a back-end infrastructure for building investment and trading apps. It’s a powerful algorithmic trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers. 12+ exchanges, 5 asset classes, 150 indicators. You can use it as a cloud API, or you can deploy it on your servers. See examples of applications to build with Tradematic Cloud at https://tradematic.cloud",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://tradematic.cloud",
       "Category": "Finance",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Tradematic Cloud",
+      "Description": "### Overview\nTradematic Cloud is a trading infrastructure for building investment services.\n\nIt’s a trading engine + API + ready-made adapters to stock and forex brokers, crypto exchanges, and market data providers.\n\nYou can use it as a cloud API, or you can deploy it on your servers. \n\n\n\n### How to use Tradematic Cloud API\n\nSign up at [tradematic.cloud](https://tradematic.cloud). After signing up, you will receive your API key.\n\n### Authorization\n\nAdd the 'X-API-KEY' header with your API key to each request.\n\n### Examples of writing code with Tradematic Cloud API\n\nExamples are available at [tradematic.cloud](https://tradematic.cloud). \n\n### Swagger (.yaml) File\nSwagger (.yaml) file can be found [here](http://tradematic.cloud/sdk/swagger.yaml).",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://tradematic.com",
+      "Category": "Development",
       "Pricing": "unknown"
     },
     {

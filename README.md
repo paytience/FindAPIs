@@ -16,7 +16,7 @@
 
 ## Categories
 
-**15536 APIs** across **53 categories**
+**15537 APIs** across **53 categories**
 
 | Category | APIs |
 |----------|------|
@@ -44,7 +44,7 @@
 | [Finance](./categories/finance.md) | 1530 |
 | [Food & Drink](./categories/food-and-drink.md) | 87 |
 | [Games & Comics](./categories/games-and-comics.md) | 270 |
-| [Geocoding](./categories/geocoding.md) | 579 |
+| [Geocoding](./categories/geocoding.md) | 580 |
 | [Government](./categories/government.md) | 354 |
 | [Health](./categories/health.md) | 195 |
 | [Jobs](./categories/jobs.md) | 107 |
