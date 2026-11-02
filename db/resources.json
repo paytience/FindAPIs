@@ -1,5 +1,5 @@
 {
-  "count": 15537,
+  "count": 15538,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -20800,6 +20800,16 @@
       "Documentation Link": "https://manual.bubble.io/core-resources/api",
       "Category": "Development",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "Bucketlist Dream of the Day",
+      "Description": "Daily experience with image and source URL in five languages; free JSON without an API key",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Documentation Link": "https://bucketlist.nl/brand/droom-van-de-dag.openapi.json",
+      "Category": "Entertainment",
+      "Pricing": "free"
     },
     {
       "API Name": "Bud",
