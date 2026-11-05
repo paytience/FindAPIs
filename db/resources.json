@@ -1,5 +1,5 @@
 {
-  "count": 15537,
+  "count": 15538,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -120360,6 +120360,16 @@
       "Documentation Link": "https://sifterapp.com/developer",
       "Category": "Development",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "SiftingIO",
+      "Description": "Real-time and historical US stocks, ETFs, forex, commodities and crypto data",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Documentation Link": "https://sifting.io/docs",
+      "Category": "Finance",
+      "Pricing": "freemium"
     },
     {
       "API Name": "SIGFOX",
