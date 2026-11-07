@@ -1,5 +1,5 @@
 {
-  "count": 15537,
+  "count": 15538,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -35070,6 +35070,16 @@
       "Documentation Link": "https://support.datacite.org/docs/api",
       "Category": "Open Data",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "Datacircle",
+      "Description": "Find the best GTM APIs. We benchmark all the GTM APIs and we put the results on our website.",
+      "Auth": "No",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Documentation Link": "https://api.datacircle.dev/v1/openapi.json",
+      "Category": "Business",
+      "Pricing": "free"
     },
     {
       "API Name": "DataDog",
