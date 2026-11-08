@@ -120372,6 +120372,16 @@
       "Pricing": "unknown"
     },
     {
+      "API Name": "SiftingIO",
+      "Description": "Real-time and historical US stocks, ETFs, forex, commodities and crypto data",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Documentation Link": "https://sifting.io/docs",
+      "Category": "Finance",
+      "Pricing": "freemium"
+    },
+    {
       "API Name": "SIGFOX",
       "Description": "Sigfox is a network that connects Things of the Internet, covering many sectors, some of which include agriculture, automotive, construction, electronics, healthcare, and more.. The Sigfox API allows developers to automate device management and implement data integration in their applications, to share messages, to keep up-to-date with things.",
       "Auth": "",
