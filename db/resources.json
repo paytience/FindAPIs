@@ -153763,7 +153763,7 @@
     },
     {
       "API Name": "YouTube Transcript Search API by Arcmira",
-      "Description": "Search indexed YouTube transcripts for timestamped quotes, speakers, and sponsors",
+      "Description": "YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and speakers.",
       "Auth": "Bearer",
       "HTTPS": true,
       "Cors": "yes",
