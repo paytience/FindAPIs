@@ -35077,7 +35077,7 @@
       "Auth": "No",
       "HTTPS": true,
       "Cors": "yes",
-      "Documentation Link": "https://api.datacircle.dev/v1/openapi.json",
+      "Documentation Link": "https://datacircle.dev/docs",
       "Category": "Business",
       "Pricing": "free"
     },
