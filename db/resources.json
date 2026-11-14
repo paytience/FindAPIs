@@ -58543,21 +58543,21 @@
     },
     {
       "API Name": "Google Knowledge Graph Search",
-      "Description": "Searches the Google Knowledge Graph for entities.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.google.com/knowledge-graph/",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Google Knowledge Graph Search",
       "Description": "The Google Knowledge Graph Search API is a tool that helps users find entities within the Google Knowledge Graph. Some of the features provided by the Google Knowledge Graph Search API are: get a ranked list of the most notable entities that match certain criteria; ability to predictably complete entities in a search box; and annotate and organize content using the Knowledge Graph entities. The Google Knowledge Graph is an innovative knowledge base used to enhance Google's search results with semantic-search information gathered from a variety of sources.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://developers.google.com/knowledge-graph",
+      "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Knowledge Graph Search",
+      "Description": "Searches the Google Knowledge Graph for entities.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.google.com/knowledge-graph/",
       "Category": "Development",
       "Pricing": "unknown"
     },
@@ -59103,16 +59103,6 @@
     },
     {
       "API Name": "Google Safe Browsing",
-      "Description": "Google Link/Domain Flagging",
-      "Auth": "apiKey",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developers.google.com/safe-browsing/",
-      "Category": "Anti-Malware",
-      "Pricing": "free"
-    },
-    {
-      "API Name": "Google Safe Browsing",
       "Description": "Enables client applications to check web resources (most commonly URLs) against Google-generated lists of unsafe web resources. The Safe Browsing APIs are for non-commercial use only. If you need to use APIs to detect malicious URLs for commercial purposes – meaning “for sale or revenue-generating purposes” – please refer to the Web Risk API.",
       "Auth": "",
       "HTTPS": true,
@@ -59120,6 +59110,16 @@
       "Documentation Link": "https://developers.google.com/safe-browsing/",
       "Category": "Machine Learning",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "Google Safe Browsing",
+      "Description": "Google Link/Domain Flagging",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developers.google.com/safe-browsing/",
+      "Category": "Anti-Malware",
+      "Pricing": "free"
     },
     {
       "API Name": "Google SAS Portal",
@@ -93593,16 +93593,6 @@
     },
     {
       "API Name": "Notion",
-      "Description": "Hello and welcome!\n\nTo make use of this API collection collection as it's written, please duplicate [this database template](https://www.notion.so/8e2c2b769e1d47d287b9ed3035d607ae?v=dc1b92875fb94f10834ba8d36549bd2a).\n\n[Create an integration](https://www.notion.so/my-integrations) to retrieve an API token, add your database and page ID's as variables in the collection, and start making your requests!\n\nFor our full documentation, including sample integrations and guides, visit [developers.notion.com](developers.notion.com)\n\nNeed more help? Join our [developer community on Slack](https://join.slack.com/t/notiondevs/shared_invite/zt-lkrnk74h-YmPRroySRFGiqgjI193AqA/)",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://notion.com",
-      "Category": "Development",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Notion",
       "Description": "Integrate with Notion",
       "Auth": "OAuth",
       "HTTPS": true,
@@ -93610,6 +93600,16 @@
       "Documentation Link": "https://developers.notion.com/docs/getting-started",
       "Category": "Documents & Productivity",
       "Pricing": "free"
+    },
+    {
+      "API Name": "Notion",
+      "Description": "Hello and welcome!\n\nTo make use of this API collection collection as it's written, please duplicate [this database template](https://www.notion.so/8e2c2b769e1d47d287b9ed3035d607ae?v=dc1b92875fb94f10834ba8d36549bd2a).\n\n[Create an integration](https://www.notion.so/my-integrations) to retrieve an API token, add your database and page ID's as variables in the collection, and start making your requests!\n\nFor our full documentation, including sample integrations and guides, visit [developers.notion.com](developers.notion.com)\n\nNeed more help? Join our [developer community on Slack](https://join.slack.com/t/notiondevs/shared_invite/zt-lkrnk74h-YmPRroySRFGiqgjI193AqA/)",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://notion.com",
+      "Category": "Development",
+      "Pricing": "unknown"
     },
     {
       "API Name": "Noun Project",
