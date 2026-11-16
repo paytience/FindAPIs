@@ -1,5 +1,5 @@
 {
-  "count": 15538,
+  "count": 15539,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -54610,6 +54610,16 @@
       "Documentation Link": "https://api.getyourguide.com",
       "Category": "Transportation",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "GetYouTubeTranscript",
+      "Description": "Get the transcript of a YouTube video as JSON, with optional timestamps, in any caption language the video has. Also YouTube search, channel uploads and playlist videos. Free credits on sign-up.",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Documentation Link": "https://getyoutubetranscript.com/docs",
+      "Category": "Video",
+      "Pricing": "freemium"
     },
     {
       "API Name": "Gfycat",
