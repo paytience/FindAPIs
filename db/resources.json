@@ -66483,16 +66483,6 @@
     },
     {
       "API Name": "IIN",
-      "Description": "THE IIN API is a verification platform that integrates credit and debit card look up capabilities in order to detect fraudulent activities. Developers can white-list their API key to ensure specific servers consume the IIN API for added security. The API is REST-based with standard HTTP GET requests. ALL data is provided in JSON format. Fees are charged on a per call basis.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://iinapi.com/docs",
-      "Category": "Finance",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "IIN",
       "Description": "IIN API allows you to accurately identify the issuing bank, card type, country of origin, and other details from a credit or debit card number. This is essential for fraud prevention, payment processing, and customer verification.",
       "Auth": "apiKey",
       "HTTPS": true,
@@ -66500,6 +66490,16 @@
       "Documentation Link": "https://iinapi.com",
       "Category": "Finance",
       "Pricing": "free"
+    },
+    {
+      "API Name": "IIN",
+      "Description": "THE IIN API is a verification platform that integrates credit and debit card look up capabilities in order to detect fraudulent activities. Developers can white-list their API key to ensure specific servers consume the IIN API for added security. The API is REST-based with standard HTTP GET requests. ALL data is provided in JSON format. Fees are charged on a per call basis.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://iinapi.com/docs",
+      "Category": "Finance",
+      "Pricing": "unknown"
     },
     {
       "API Name": "IKANOW",
@@ -82323,22 +82323,22 @@
     },
     {
       "API Name": "Mastercard MATCH",
-      "Description": "Member Alert to Control High-risk Merchants (MATCH) is Mastercardâ€™s offering to acquirers for vetting merchants prior to entering into contracts with them. Users must inquire with Mastercard for MATCH certification. The API provides real-time and automated access to the MATCH database which contains information about terminated merchants that users are required to keep updated. The API uses RESTful calls and provides responses in XML.",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "",
-      "Documentation Link": "https://developer.mastercard.com/portal/display/api/MATCH",
-      "Category": "Finance",
-      "Pricing": "unknown"
-    },
-    {
-      "API Name": "Mastercard MATCH",
       "Description": "Helps acquirers identify potentially high-risk merchants before entering to a merchant agreement.",
       "Auth": "",
       "HTTPS": true,
       "Cors": "",
       "Documentation Link": "https://mastercard.com",
       "Category": "Development",
+      "Pricing": "unknown"
+    },
+    {
+      "API Name": "Mastercard MATCH",
+      "Description": "Member Alert to Control High-risk Merchants (MATCH) is Mastercardâ€™s offering to acquirers for vetting merchants prior to entering into contracts with them. Users must inquire with Mastercard for MATCH certification. The API provides real-time and automated access to the MATCH database which contains information about terminated merchants that users are required to keep updated. The API uses RESTful calls and provides responses in XML.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "",
+      "Documentation Link": "https://developer.mastercard.com/portal/display/api/MATCH",
+      "Category": "Finance",
       "Pricing": "unknown"
     },
     {
