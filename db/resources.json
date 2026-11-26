@@ -1,5 +1,5 @@
 {
-  "count": 15538,
+  "count": 15539,
   "entries": [
     {
       "API Name": "(a9t9) OCR",
@@ -80400,6 +80400,16 @@
       "Documentation Link": "https://votesapi.com/documentation.aspx",
       "Category": "Government",
       "Pricing": "unknown"
+    },
+    {
+      "API Name": "MacroDial Knowledge",
+      "Description": "Read-only macroeconomic research definitions, methods, modules, and factor metadata.",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "no",
+      "Documentation Link": "https://macrodial.org/ai-resources",
+      "Category": "Finance",
+      "Pricing": "free"
     },
     {
       "API Name": "MacroFab",
